@@ -1,9 +1,5 @@
 # DSA & LeetCode Interview Roadmap
 
-<p align="center">
-  <img src="DSA%20%26%20LeetCode%20Roadmap%20Infographic.png" alt="DSA & LeetCode Roadmap">
-</p>
-
 ---
 
 ## 🎯 Goal
@@ -13,6 +9,12 @@ Build strong Data Structures & Algorithms fundamentals and become interview-read
 ## 🧭 How to Follow This Roadmap
 
 **Learn Concept → Understand Patterns → Solve Problems → Review → Repeat → Move to Next Topic**
+
+---
+
+<p align="center">
+  <img src="DSA%20%26%20LeetCode%20Roadmap%20Infographic.png" alt="DSA & LeetCode Roadmap">
+</p>
 
 ---
 ### Difficulty
