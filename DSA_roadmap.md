@@ -19,10 +19,6 @@ Build strong Data Structures & Algorithms fundamentals and become interview-read
 
 🟩 Easy &nbsp;&nbsp; 🟨 Medium &nbsp;&nbsp; 🟧 Hard
 
-### Difficulty
-
-🟩 Easy &nbsp;&nbsp; 🟨 Medium &nbsp;&nbsp; 🟧 Hard
-
 | # | Category & Topics | Problems | Approx. Problems |
 |---:|---|---|---:|
 | **0** | **Programming Foundations**<br><br>**Topic 1:** Python Basics<br>**Topic 2:** Data Types & Loops<br>**Topic 3:** Functions & OOP Basics<br>**Topic 4:** Recursion Basics<br>**Topic 5:** Time & Space Complexity<br>**Topic 6:** Big-O Analysis | 🟩 **Fizz Buzz** — *(Topic 1)* #412<br>🟩 **Running Sum of 1d Array** — *(Topic 2)* #1480<br>🟩 **Richest Customer Wealth** — *(Topic 2)* #1672<br>🟩 **Find Numbers with Even Number of Digits** — *(Topic 2)* #1295<br>🟩 **Find Pivot Index** — *(Topic 3)* #724<br>🟩 **Binary Search** — *(Topic 3)* #704<br>🟩 **Fibonacci Number** — *(Topic 4)* #509<br>🟩 **Climbing Stairs** — *(Topic 4)* #70 | 8–10 |
