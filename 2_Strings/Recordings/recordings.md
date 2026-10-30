@@ -20,6 +20,14 @@
 <details>
 <summary>Sample Input & Output</summary>
 
+Write a function to find the longest common prefix string amongst an array of strings.
+If there is no common prefix, return an empty string.
+
+Constraints:
+- 1 <= strs.length <= 200
+- 0 <= strs[i].length <= 200
+- strs[i] consists of lowercase English letters
+
 Example 1:
 Input: strs = ["flower","flow","flight"]
 Output: "fl"
@@ -63,7 +71,6 @@ Space Complexity: O(1)
 
 </details>
 
-
 <details>
 <summary><strong>✅ Q2 : Valid Palindrome</strong></summary>
 
@@ -83,6 +90,13 @@ Space Complexity: O(1)
 
 <details>
 <summary>Sample Input & Output</summary>
+
+A phrase is a palindrome if, after converting all uppercase letters into lowercase and removing all non-alphanumeric characters, it reads the same forward and backward.
+Given a string s, return true if it is a palindrome, otherwise false.
+
+Constraints:
+- 1 <= s.length <= 2 * 10^5
+- s consists only of printable ASCII characters
 
 Example 1:
 Input: s = "A man, a plan, a canal: Panama"
@@ -116,7 +130,6 @@ Space Complexity: O(n)
 
 </details>
 
-
 <details>
 <summary><strong>✅ Q3 : Valid Anagram</strong></summary>
 
@@ -136,6 +149,13 @@ Space Complexity: O(n)
 
 <details>
 <summary>Sample Input & Output</summary>
+
+Given two strings s and t, return true if t is an anagram of s and false otherwise.
+An anagram is a word or phrase formed by rearranging the letters of another using all the original letters exactly once.
+
+Constraints:
+- 1 <= s.length, t.length <= 5 * 10^4
+- s and t consist of lowercase English letters
 
 Example 1:
 Input: s = "anagram", t = "nagaram"
@@ -168,7 +188,6 @@ Space Complexity: O(n)
 
 </details>
 
-
 <details>
 <summary><strong>✅ Q4 : First Unique Character in a String</strong></summary>
 
@@ -188,6 +207,13 @@ Space Complexity: O(n)
 
 <details>
 <summary>Sample Input & Output</summary>
+
+Given a string s, find the first non-repeating character and return its index.
+If no such character exists, return -1.
+
+Constraints:
+- 1 <= s.length <= 10^5
+- s consists of lowercase English letters
 
 Example 1:
 Input: s = "leetcode"
@@ -226,7 +252,6 @@ Space Complexity: O(1)
 
 </details>
 
-
 <details>
 <summary><strong>✅ Q5 : Is Subsequence</strong></summary>
 
@@ -246,6 +271,14 @@ Space Complexity: O(1)
 
 <details>
 <summary>Sample Input & Output</summary>
+
+Given two strings s and t, return true if s is a subsequence of t, or false otherwise.
+A subsequence of a string is a new string that is formed by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters.
+
+Constraints:
+- 0 <= s.length <= 100
+- 0 <= t.length <= 10^4
+- s and t consist only of lowercase English letters
 
 Example 1:
 Input: s = "abc", t = "ahbgdc"
@@ -282,7 +315,6 @@ Space Complexity: O(1)
 
 </details>
 
-
 <details>
 <summary><strong>✅ Q6 : Reverse String</strong></summary>
 
@@ -302,6 +334,13 @@ Space Complexity: O(1)
 
 <details>
 <summary>Sample Input & Output</summary>
+
+Write a function that reverses a string in-place. The input string is given as a character array s.
+You must do this by modifying the input array in-place with O(1) extra memory.
+
+Constraints:
+- 1 <= s.length <= 10^5
+- s[i] is a printable ASCII character
 
 Example 1:
 Input: s = ["h","e","l","l","o"]
@@ -338,7 +377,6 @@ Space Complexity: O(1)
 
 </details>
 
-
 <details>
 <summary><strong>✅ Q7 : Reverse Words in a String III</strong></summary>
 
@@ -358,6 +396,13 @@ Space Complexity: O(1)
 
 <details>
 <summary>Sample Input & Output</summary>
+
+Given a string s, reverse the order of characters in each word within a sentence while still preserving whitespace and word order.
+
+Constraints:
+- 1 <= s.length <= 10^5
+- s contains printable ASCII characters
+- s does not contain leading or trailing spaces
 
 Example 1:
 Input: s = "Let's take LeetCode contest"
@@ -391,7 +436,6 @@ Space Complexity: O(n)
 
 </details>
 
-
 <details>
 <summary><strong>✅ Q8 : Group Anagrams</strong></summary>
 
@@ -411,6 +455,13 @@ Space Complexity: O(n)
 
 <details>
 <summary>Sample Input & Output</summary>
+
+Given an array of strings strs, group the anagrams together. Two strings are anagrams if they have the same characters with the same frequency, but different order.
+
+Constraints:
+- 1 <= strs.length <= 10^4
+- 0 <= strs[i].length <= 100
+- strs[i] consists of lowercase English letters
 
 Example 1:
 Input: strs = ["eat","tea","tan","ate","nat","bat"]
@@ -448,7 +499,6 @@ Space Complexity: O(n * k)
 
 </details>
 
-
 <details>
 <summary><strong>✅ Q9 : String Compression</strong></summary>
 
@@ -468,6 +518,12 @@ Space Complexity: O(n * k)
 
 <details>
 <summary>Sample Input & Output</summary>
+
+Compress a run-length encoded string in-place. Each group of consecutive identical characters should be replaced with the character followed by the count if the count is greater than 1.
+
+Constraints:
+- 1 <= chars.length <= 2000
+- chars[i] is a lowercase English letter, uppercase letter, digit, or symbol
 
 Example 1:
 Input: chars = ["a","a","b","b","c","c","c"]
@@ -514,7 +570,6 @@ Space Complexity: O(1)
 
 </details>
 
-
 <details>
 <summary><strong>✅ Q10 : Longest Palindromic Substring</strong></summary>
 
@@ -534,6 +589,12 @@ Space Complexity: O(1)
 
 <details>
 <summary>Sample Input & Output</summary>
+
+Given a string s, return the longest palindromic substring in s.
+
+Constraints:
+- 1 <= s.length <= 1000
+- s consists of digits and English letters
 
 Example 1:
 Input: s = "babad"
@@ -584,7 +645,6 @@ Space Complexity: O(1)
 
 </details>
 
-
 <details>
 <summary><strong>✅ Q11 : Longest Substring Without Repeating Characters</strong></summary>
 
@@ -604,6 +664,12 @@ Space Complexity: O(1)
 
 <details>
 <summary>Sample Input & Output</summary>
+
+Given a string s, find the length of the longest substring without repeating characters.
+
+Constraints:
+- 0 <= s.length <= 5 * 10^4
+- s consists of English letters, digits, symbols, and spaces
 
 Example 1:
 Input: s = "abcabcbb"
@@ -646,7 +712,6 @@ Space Complexity: O(min(n, 256))
 
 </details>
 
-
 <details>
 <summary><strong>✅ Q12 : Longest Repeating Character Replacement</strong></summary>
 
@@ -666,6 +731,13 @@ Space Complexity: O(min(n, 256))
 
 <details>
 <summary>Sample Input & Output</summary>
+
+You are given a string s and an integer k. You can choose any character and replace it with any other uppercase English character. Find the length of the longest substring containing the same character after at most k replacements.
+
+Constraints:
+- 1 <= s.length <= 10^5
+- s consists of uppercase English letters
+- 0 <= k <= s.length
 
 Example 1:
 Input: s = "ABAB", k = 2
@@ -715,7 +787,6 @@ Space Complexity: O(1)
 
 </details>
 
-
 <details>
 <summary><strong>✅ Q13 : Find All Anagrams in a String</strong></summary>
 
@@ -735,6 +806,12 @@ Space Complexity: O(1)
 
 <details>
 <summary>Sample Input & Output</summary>
+
+Given two strings s and p, return an array of all the starting indices of p's anagrams in s. The output should be in increasing order.
+
+Constraints:
+- 1 <= s.length, p.length <= 3 * 10^4
+- s and p consist of lowercase English letters
 
 Example 1:
 Input: s = "cbaebabacd", p = "abc"
@@ -784,7 +861,6 @@ Space Complexity: O(k)
 
 </details>
 
-
 <details>
 <summary><strong>✅ Q14 : Decode String</strong></summary>
 
@@ -804,6 +880,13 @@ Space Complexity: O(k)
 
 <details>
 <summary>Sample Input & Output</summary>
+
+Given an encoded string s, return its decoded string. The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is repeated exactly k times.
+
+Constraints:
+- 1 <= s.length <= 30
+- s consists of lowercase English letters, digits, and brackets
+- The input is guaranteed to be valid
 
 Example 1:
 Input: s = "3[a]2[bc]"
@@ -853,7 +936,6 @@ Space Complexity: O(n)
 
 </details>
 
-
 <details>
 <summary><strong>✅ Q15 : String to Integer (atoi)</strong></summary>
 
@@ -873,6 +955,12 @@ Space Complexity: O(n)
 
 <details>
 <summary>Sample Input & Output</summary>
+
+Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer according to the following rules: ignore leading whitespace, read an optional sign, read digits until a non-digit appears, and clamp the result to the int32 range.
+
+Constraints:
+- 0 <= s.length <= 200
+- s consists of English letters, digits, spaces, '+' and '-'
 
 Example 1:
 Input: s = "42"
@@ -924,7 +1012,6 @@ Space Complexity: O(1)
 
 </details>
 
-
 <details>
 <summary><strong>✅ Q16 : Encode and Decode Strings</strong></summary>
 
@@ -944,6 +1031,13 @@ Space Complexity: O(1)
 
 <details>
 <summary>Sample Input & Output</summary>
+
+Design an algorithm to encode a list of strings into a single string and decode it back to the original list.
+
+Constraints:
+- 1 <= words.length <= 200
+- 0 <= words[i].length <= 20
+- words[i] consists of lowercase English letters
 
 Example 1:
 Input: words = ["lint","code","love","you"]
@@ -987,7 +1081,6 @@ Space Complexity: O(total characters)
 
 </details>
 
-
 <details>
 <summary><strong>✅ Q17 : Palindromic Substrings</strong></summary>
 
@@ -1008,6 +1101,12 @@ Space Complexity: O(total characters)
 <details>
 <summary>Sample Input & Output</summary>
 
+Given a string s, count how many palindromic substrings are in it.
+
+Constraints:
+- 1 <= s.length <= 1000
+- s consists of lowercase English letters
+
 Example 1:
 Input: s = "abc"
 Output: 3
@@ -1025,18 +1124,17 @@ Output: 6
 class Solution:
     def countSubstrings(self, s):
         count = 0
-
-        def expand(l, r):
-            nonlocal count
+        for i in range(len(s)):
+            l, r = i, i
             while l >= 0 and r < len(s) and s[l] == s[r]:
                 count += 1
                 l -= 1
                 r += 1
-
-        for i in range(len(s)):
-            expand(i, i)
-            expand(i, i + 1)
-
+            l, r = i, i + 1
+            while l >= 0 and r < len(s) and s[l] == s[r]:
+                count += 1
+                l -= 1
+                r += 1
         return count
 ```
 
@@ -1051,7 +1149,6 @@ Space Complexity: O(1)
 </details>
 
 </details>
-
 
 <details>
 <summary><strong>✅ Q18 : Minimum Window Substring</strong></summary>
@@ -1073,13 +1170,15 @@ Space Complexity: O(1)
 <details>
 <summary>Sample Input & Output</summary>
 
+Given two strings s and t, return the minimum window in s which will contain all the characters in t. If there is no such window, return an empty string.
+
+Constraints:
+- 1 <= s.length, t.length <= 10^5
+- s and t consist of uppercase and lowercase English letters
+
 Example 1:
 Input: s = "ADOBECODEBANC", t = "ABC"
 Output: "BANC"
-
-Example 2:
-Input: s = "a", t = "aa"
-Output: ""
 
 </details>
 
@@ -1094,7 +1193,7 @@ class Solution:
         need = Counter(t)
         missing = len(t)
         left = 0
-        best = (-1, float('inf'))
+        best = (float('inf'), None, None)
 
         for right, ch in enumerate(s):
             if need[ch] > 0:
@@ -1102,16 +1201,16 @@ class Solution:
             need[ch] -= 1
 
             while missing == 0:
-                if right - left + 1 < best[1]:
-                    best = (left, right - left + 1)
+                if right - left + 1 < best[0]:
+                    best = (right - left + 1, left, right)
                 need[s[left]] += 1
                 if need[s[left]] > 0:
                     missing += 1
                 left += 1
 
-        if best[0] == -1:
+        if best[1] is None:
             return ""
-        return s[best[0]:best[0] + best[1]]
+        return s[best[1]:best[2] + 1]
 ```
 
 </details>
@@ -1125,7 +1224,6 @@ Space Complexity: O(k)
 </details>
 
 </details>
-
 
 <details>
 <summary><strong>✅ Q19 : Regular Expression Matching</strong></summary>
@@ -1147,6 +1245,13 @@ Space Complexity: O(k)
 <details>
 <summary>Sample Input & Output</summary>
 
+Given an input string s and a pattern p, implement regular expression matching with support for '.' and '*'.
+
+Constraints:
+- 0 <= s.length <= 20
+- 0 <= p.length <= 30
+- s and p consist of lowercase English letters
+
 Example 1:
 Input: s = "aa", p = "a"
 Output: false
@@ -1165,8 +1270,7 @@ class Solution:
     def isMatch(self, s, p):
         dp = [[False] * (len(p) + 1) for _ in range(len(s) + 1)]
         dp[0][0] = True
-
-        for j in range(1, len(p) + 1):
+        for j in range(2, len(p) + 1):
             if p[j - 1] == '*':
                 dp[0][j] = dp[0][j - 2]
 
@@ -1176,7 +1280,6 @@ class Solution:
                     dp[i][j] = dp[i - 1][j - 1]
                 elif p[j - 1] == '*':
                     dp[i][j] = dp[i][j - 2] or (dp[i - 1][j] and (p[j - 2] == s[i - 1] or p[j - 2] == '.'))
-
         return dp[len(s)][len(p)]
 ```
 
@@ -1192,14 +1295,13 @@ Space Complexity: O(n * m)
 
 </details>
 
-
 <details>
 <summary><strong>✅ Q20 : Edit Distance</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#72,Med.,Topic8<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+72+Edit+Distance+solution)
+#72,Hard,Topic8<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+72+Edit+Distance+solution)
 
 </details>
 
@@ -1212,6 +1314,12 @@ Space Complexity: O(n * m)
 
 <details>
 <summary>Sample Input & Output</summary>
+
+Given two strings word1 and word2, find the minimum number of operations required to convert word1 into word2. You can perform insert, delete, and replace operations.
+
+Constraints:
+- 0 <= word1.length, word2.length <= 500
+- word1 and word2 consist of lowercase English letters
 
 Example 1:
 Input: word1 = "horse", word2 = "ros"
@@ -1231,19 +1339,16 @@ class Solution:
     def minDistance(self, word1, word2):
         m, n = len(word1), len(word2)
         dp = [[0] * (n + 1) for _ in range(m + 1)]
-
         for i in range(m + 1):
             dp[i][0] = i
         for j in range(n + 1):
             dp[0][j] = j
-
         for i in range(1, m + 1):
             for j in range(1, n + 1):
                 if word1[i - 1] == word2[j - 1]:
                     dp[i][j] = dp[i - 1][j - 1]
                 else:
                     dp[i][j] = 1 + min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1])
-
         return dp[m][n]
 ```
 
