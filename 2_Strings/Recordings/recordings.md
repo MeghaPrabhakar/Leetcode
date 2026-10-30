@@ -1,18 +1,17 @@
 # Recordings
 
 <details>
-<summary>🟩 Longest Common Prefix — (Topic 1) #14</summary>
+<summary><strong>✅ Q1 : Longest Common Prefix</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#14, Easy, Topic 1<br/>
-Useful links: [YouTube](#), [LeetCode #14](#)
+#14,Easy,Topic1<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+14+Longest+Common+Prefix+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#14_Longest Common Prefix](#)
 
@@ -37,15 +36,19 @@ Output: ""
 ```python
 class Solution:
     def longestCommonPrefix(self, strs: list[str]) -> str:
-        if not strs:
-            return ""
-        prefix = strs[0]
-        for s in strs[1:]:
-            while not s.startswith(prefix):
-                prefix = prefix[:-1]
-                if not prefix:
-                    return ""
-        return prefix
+        max_len_psbl = len(min(strs, key=len))
+        i=0
+        possibilities=[]
+        while i < len(strs):
+            possibilities.append((strs[i][0:max_len_psbl]))
+            i+=1
+        print(possibilities)
+        for i in range(len(possibilities)-1):
+            while(possibilities[i][0:max_len_psbl]!=possibilities[i+1][0:max_len_psbl]):
+                print(possibilities[i],possibilities[i+1])
+                max_len_psbl-=1
+                print(max_len_psbl)
+        return possibilities[0][0:max_len_psbl]
 ```
 
 </details>
@@ -60,19 +63,19 @@ Space Complexity: O(1)
 
 </details>
 
+
 <details>
-<summary>🟩 Valid Palindrome — (Topic 3) #125</summary>
+<summary><strong>✅ Q2 : Valid Palindrome</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#125, Easy, Topic 3<br/>
-Useful links: [YouTube](#), [LeetCode #125](#)
+#125,Easy,Topic3<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+125+Valid+Palindrome+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#125_Valid Palindrome](#)
 
@@ -96,7 +99,7 @@ Output: false
 
 ```python
 class Solution:
-    def isPalindrome(self, s: str) -> bool:
+    def isPalindrome(self, s):
         cleaned = ''.join(ch.lower() for ch in s if ch.isalnum())
         return cleaned == cleaned[::-1]
 ```
@@ -113,19 +116,19 @@ Space Complexity: O(n)
 
 </details>
 
+
 <details>
-<summary>🟩 Valid Anagram — (Topic 4) #242</summary>
+<summary><strong>✅ Q3 : Valid Anagram</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#242, Easy, Topic 4<br/>
-Useful links: [YouTube](#), [LeetCode #242](#)
+#242,Easy,Topic4<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+242+Valid+Anagram+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#242_Valid Anagram](#)
 
@@ -149,7 +152,7 @@ Output: false
 
 ```python
 class Solution:
-    def isAnagram(self, s: str, t: str) -> bool:
+    def isAnagram(self, s, t):
         return sorted(s) == sorted(t)
 ```
 
@@ -165,19 +168,19 @@ Space Complexity: O(n)
 
 </details>
 
+
 <details>
-<summary>🟩 First Unique Character in a String — (Topic 2) #387</summary>
+<summary><strong>✅ Q4 : First Unique Character in a String</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#387, Easy, Topic 2<br/>
-Useful links: [YouTube](#), [LeetCode #387](#)
+#387,Easy,Topic2<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+387+First+Unique+Character+in+a+String+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#387_First Unique Character in a String](#)
 
@@ -200,11 +203,11 @@ Output: 2
 <summary>Code</summary>
 
 ```python
+from collections import Counter
+
 class Solution:
-    def firstUniqChar(self, s: str) -> int:
-        counts = {}
-        for ch in s:
-            counts[ch] = counts.get(ch, 0) + 1
+    def firstUniqChar(self, s):
+        counts = Counter(s)
         for i, ch in enumerate(s):
             if counts[ch] == 1:
                 return i
@@ -223,19 +226,19 @@ Space Complexity: O(1)
 
 </details>
 
+
 <details>
-<summary>🟩 Is Subsequence — (Topic 5) #392</summary>
+<summary><strong>✅ Q5 : Is Subsequence</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#392, Easy, Topic 5<br/>
-Useful links: [YouTube](#), [LeetCode #392](#)
+#392,Easy,Topic5<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+392+Is+Subsequence+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#392_Is Subsequence](#)
 
@@ -259,7 +262,7 @@ Output: false
 
 ```python
 class Solution:
-    def isSubsequence(self, s: str, t: str) -> bool:
+    def isSubsequence(self, s, t):
         i = 0
         for ch in t:
             if i < len(s) and ch == s[i]:
@@ -272,26 +275,26 @@ class Solution:
 <details>
 <summary>Space & Time Complexity</summary>
 
-Time Complexity: O(n)
+Time Complexity: O(len(t))
 Space Complexity: O(1)
 
 </details>
 
 </details>
 
+
 <details>
-<summary>🟩 Reverse String — (Topic 1) #344</summary>
+<summary><strong>✅ Q6 : Reverse String</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#344, Easy, Topic 1<br/>
-Useful links: [YouTube](#), [LeetCode #344](#)
+#344,Easy,Topic1<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+344+Reverse+String+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#344_Reverse String](#)
 
@@ -315,7 +318,7 @@ Output: ["h","a","n","n","a","H"]
 
 ```python
 class Solution:
-    def reverseString(self, s: list[str]) -> None:
+    def reverseString(self, s):
         left, right = 0, len(s) - 1
         while left < right:
             s[left], s[right] = s[right], s[left]
@@ -335,19 +338,19 @@ Space Complexity: O(1)
 
 </details>
 
+
 <details>
-<summary>🟩 Reverse Words in a String III — (Topic 1) #557</summary>
+<summary><strong>✅ Q7 : Reverse Words in a String III</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#557, Easy, Topic 1<br/>
-Useful links: [YouTube](#), [LeetCode #557](#)
+#557,Easy,Topic1<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+557+Reverse+Words+in+a+String+III+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#557_Reverse Words in a String III](#)
 
@@ -360,6 +363,10 @@ Example 1:
 Input: s = "Let's take LeetCode contest"
 Output: "s'teL ekat edoCteeL tsetnoc"
 
+Example 2:
+Input: s = "God Ding"
+Output: "doG gniD"
+
 </details>
 
 <details>
@@ -367,7 +374,7 @@ Output: "s'teL ekat edoCteeL tsetnoc"
 
 ```python
 class Solution:
-    def reverseWords(self, s: str) -> str:
+    def reverseWords(self, s):
         words = s.split()
         return ' '.join(word[::-1] for word in words)
 ```
@@ -384,19 +391,19 @@ Space Complexity: O(n)
 
 </details>
 
+
 <details>
-<summary>🟨 Group Anagrams — (Topic 4) #49</summary>
+<summary><strong>✅ Q8 : Group Anagrams</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#49, Medium, Topic 4<br/>
-Useful links: [YouTube](#), [LeetCode #49](#)
+#49,Med.,Topic4<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+49+Group+Anagrams+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#49_Group Anagrams](#)
 
@@ -407,7 +414,11 @@ Useful links: [YouTube](#), [LeetCode #49](#)
 
 Example 1:
 Input: strs = ["eat","tea","tan","ate","nat","bat"]
-Output: [["eat","tea","ate"],["tan","nat"],["bat"]]
+Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+
+Example 2:
+Input: strs = [""]
+Output: [[""]]
 
 </details>
 
@@ -418,10 +429,10 @@ Output: [["eat","tea","ate"],["tan","nat"],["bat"]]
 from collections import defaultdict
 
 class Solution:
-    def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
+    def groupAnagrams(self, strs):
         groups = defaultdict(list)
         for word in strs:
-            groups[tuple(sorted(word))].append(word)
+            groups[''.join(sorted(word))].append(word)
         return list(groups.values())
 ```
 
@@ -437,19 +448,19 @@ Space Complexity: O(n * k)
 
 </details>
 
+
 <details>
-<summary>🟨 String Compression — (Topic 7) #443</summary>
+<summary><strong>✅ Q9 : String Compression</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#443, Medium, Topic 7<br/>
-Useful links: [YouTube](#), [LeetCode #443](#)
+#443,Med.,Topic7<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+443+String+Compression+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#443_String Compression](#)
 
@@ -460,7 +471,11 @@ Useful links: [YouTube](#), [LeetCode #443](#)
 
 Example 1:
 Input: chars = ["a","a","b","b","c","c","c"]
-Output: 7
+Output: 6
+
+Example 2:
+Input: chars = ["a"]
+Output: 1
 
 </details>
 
@@ -469,21 +484,22 @@ Output: 7
 
 ```python
 class Solution:
-    def compress(self, chars: list[str]) -> int:
+    def compress(self, chars):
+        write = 0
         i = 0
-        ans = 0
         while i < len(chars):
-            j = i
-            while j < len(chars) and chars[j] == chars[i]:
-                j += 1
-            chars[ans] = chars[i]
-            ans += 1
-            if j - i > 1:
-                for digit in str(j - i):
-                    chars[ans] = digit
-                    ans += 1
-            i = j
-        return ans
+            count = 1
+            while i + 1 < len(chars) and chars[i] == chars[i + 1]:
+                i += 1
+                count += 1
+            chars[write] = chars[i]
+            write += 1
+            if count > 1:
+                for digit in str(count):
+                    chars[write] = digit
+                    write += 1
+            i += 1
+        return write
 ```
 
 </details>
@@ -498,19 +514,19 @@ Space Complexity: O(1)
 
 </details>
 
+
 <details>
-<summary>🟨 Longest Palindromic Substring — (Topic 3) #5</summary>
+<summary><strong>✅ Q10 : Longest Palindromic Substring</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#5, Medium, Topic 3<br/>
-Useful links: [YouTube](#), [LeetCode #5](#)
+#5,Med.,Topic3<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+5+Longest+Palindromic+Substring+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#5_Longest Palindromic Substring](#)
 
@@ -534,24 +550,26 @@ Output: "bb"
 
 ```python
 class Solution:
-    def longestPalindrome(self, s: str) -> str:
-        if len(s) < 2:
-            return s
-        best = s[0]
+    def longestPalindrome(self, s):
+        if not s:
+            return ""
+        start = 0
+        max_len = 1
+
+        def expand(l, r):
+            nonlocal start, max_len
+            while l >= 0 and r < len(s) and s[l] == s[r]:
+                if r - l + 1 > max_len:
+                    start = l
+                    max_len = r - l + 1
+                l -= 1
+                r += 1
+
         for i in range(len(s)):
-            l, r = i, i
-            while l >= 0 and r < len(s) and s[l] == s[r]:
-                if (r - l + 1) > len(best):
-                    best = s[l:r+1]
-                l -= 1
-                r += 1
-            l, r = i, i + 1
-            while l >= 0 and r < len(s) and s[l] == s[r]:
-                if (r - l + 1) > len(best):
-                    best = s[l:r+1]
-                l -= 1
-                r += 1
-        return best
+            expand(i, i)
+            expand(i, i + 1)
+
+        return s[start:start + max_len]
 ```
 
 </details>
@@ -566,19 +584,19 @@ Space Complexity: O(1)
 
 </details>
 
+
 <details>
-<summary>🟨 Longest Substring Without Repeating Characters — (Topic 5) #3</summary>
+<summary><strong>✅ Q11 : Longest Substring Without Repeating Characters</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#3, Medium, Topic 5<br/>
-Useful links: [YouTube](#), [LeetCode #3](#)
+#3,Med.,Topic5<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+3+Longest+Substring+Without+Repeating+Characters+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#3_Longest Substring Without Repeating Characters](#)
 
@@ -602,16 +620,18 @@ Output: 1
 
 ```python
 class Solution:
-    def lengthOfLongestSubstring(self, s: str) -> int:
+    def lengthOfLongestSubstring(self, s):
         left = 0
         seen = {}
-        best = 0
+        longest = 0
+
         for right, ch in enumerate(s):
             if ch in seen:
                 left = max(left, seen[ch] + 1)
             seen[ch] = right
-            best = max(best, right - left + 1)
-        return best
+            longest = max(longest, right - left + 1)
+
+        return longest
 ```
 
 </details>
@@ -620,25 +640,25 @@ class Solution:
 <summary>Space & Time Complexity</summary>
 
 Time Complexity: O(n)
-Space Complexity: O(min(n, k))
+Space Complexity: O(min(n, 256))
 
 </details>
 
 </details>
+
 
 <details>
-<summary>🟨 Longest Repeating Character Replacement — (Topic 5) #424</summary>
+<summary><strong>✅ Q12 : Longest Repeating Character Replacement</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#424, Medium, Topic 5<br/>
-Useful links: [YouTube](#), [LeetCode #424](#)
+#424,Med.,Topic5<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+424+Longest+Repeating+Character+Replacement+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#424_Longest Repeating Character Replacement](#)
 
@@ -661,18 +681,26 @@ Output: 4
 <summary>Code</summary>
 
 ```python
+from collections import defaultdict
+
 class Solution:
-    def characterReplacement(self, s: str, k: int) -> int:
-        counts = {}
+    def characterReplacement(self, s, k):
+        counts = defaultdict(int)
         left = 0
-        best = 0
+        max_count = 0
+        longest = 0
+
         for right, ch in enumerate(s):
-            counts[ch] = counts.get(ch, 0) + 1
-            while (right - left + 1) - max(counts.values()) > k:
+            counts[ch] += 1
+            max_count = max(max_count, counts[ch])
+
+            while right - left + 1 - max_count > k:
                 counts[s[left]] -= 1
                 left += 1
-            best = max(best, right - left + 1)
-        return best
+
+            longest = max(longest, right - left + 1)
+
+        return longest
 ```
 
 </details>
@@ -687,19 +715,19 @@ Space Complexity: O(1)
 
 </details>
 
+
 <details>
-<summary>🟨 Find All Anagrams in a String — (Topic 4) #438</summary>
+<summary><strong>✅ Q13 : Find All Anagrams in a String</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#438, Medium, Topic 4<br/>
-Useful links: [YouTube](#), [LeetCode #438](#)
+#438,Med.,Topic4<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+438+Find+All+Anagrams+in+a+String+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#438_Find All Anagrams in a String](#)
 
@@ -710,7 +738,11 @@ Useful links: [YouTube](#), [LeetCode #438](#)
 
 Example 1:
 Input: s = "cbaebabacd", p = "abc"
-Output: [0, 6]
+Output: [0,6]
+
+Example 2:
+Input: s = "abab", p = "ab"
+Output: [0,1,2]
 
 </details>
 
@@ -721,22 +753,23 @@ Output: [0, 6]
 from collections import Counter
 
 class Solution:
-    def findAnagrams(self, s: str, p: str) -> list[int]:
+    def findAnagrams(self, s, p):
         need = Counter(p)
         window = Counter()
         left = 0
-        ans = []
+        result = []
+
         for right, ch in enumerate(s):
             window[ch] += 1
-            while right - left + 1 > len(p):
-                left_ch = s[left]
-                window[left_ch] -= 1
-                if window[left_ch] == 0:
-                    del window[left_ch]
+            while window - need < Counter():
+                window[s[left]] -= 1
+                if window[s[left]] == 0:
+                    del window[s[left]]
                 left += 1
             if window == need:
-                ans.append(left)
-        return ans
+                result.append(left)
+
+        return result
 ```
 
 </details>
@@ -751,19 +784,19 @@ Space Complexity: O(k)
 
 </details>
 
+
 <details>
-<summary>🟨 Decode String — (Topic 6) #394</summary>
+<summary><strong>✅ Q14 : Decode String</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#394, Medium, Topic 6<br/>
-Useful links: [YouTube](#), [LeetCode #394](#)
+#394,Med.,Topic6<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+394+Decode+String+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#394_Decode String](#)
 
@@ -787,21 +820,25 @@ Output: "accaccacc"
 
 ```python
 class Solution:
-    def decodeString(self, s: str) -> str:
+    def decodeString(self, s):
         stack = []
+        current_num = 0
+        current_string = ""
+
         for ch in s:
-            if ch != ']':
-                stack.append(ch)
+            if ch.isdigit():
+                current_num = current_num * 10 + int(ch)
+            elif ch == '[':
+                stack.append((current_string, current_num))
+                current_string = ""
+                current_num = 0
+            elif ch == ']':
+                prev_string, repeat = stack.pop()
+                current_string = prev_string + current_string * repeat
             else:
-                sub = ''
-                while stack and stack[-1] != '[':
-                    sub = stack.pop() + sub
-                stack.pop()
-                num = ''
-                while stack and stack[-1].isdigit():
-                    num = stack.pop() + num
-                stack.append(int(num) * sub)
-        return ''.join(str(x) for x in stack)
+                current_string += ch
+
+        return current_string
 ```
 
 </details>
@@ -816,19 +853,19 @@ Space Complexity: O(n)
 
 </details>
 
+
 <details>
-<summary>🟨 String to Integer (atoi) — (Topic 6) #8</summary>
+<summary><strong>✅ Q15 : String to Integer (atoi)</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#8, Medium, Topic 6<br/>
-Useful links: [YouTube](#), [LeetCode #8](#)
+#8,Med.,Topic6<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+8+String+to+Integer+atoi+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#8_String to Integer (atoi)](#)
 
@@ -852,21 +889,27 @@ Output: -42
 
 ```python
 class Solution:
-    def myAtoi(self, s: str) -> int:
+    def myAtoi(self, s):
         s = s.strip()
         if not s:
             return 0
+
         sign = 1
         if s[0] in '+-':
-            if s[0] == '-':
-                sign = -1
+            sign = -1 if s[0] == '-' else 1
             s = s[1:]
+
         num = 0
         for ch in s:
             if not ch.isdigit():
                 break
-            num = num * 10 + int(ch)
-        return max(-2**31, min(sign * num, 2**31 - 1))
+            num = num * 10 + (ord(ch) - ord('0'))
+            if sign == 1 and num > 2**31 - 1:
+                return 2**31 - 1
+            if sign == -1 and num > 2**31:
+                return -(2**31)
+
+        return sign * num
 ```
 
 </details>
@@ -881,19 +924,19 @@ Space Complexity: O(1)
 
 </details>
 
+
 <details>
-<summary>🟨 Encode and Decode Strings — (Topic 6) #271</summary>
+<summary><strong>✅ Q16 : Encode and Decode Strings</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#271, Medium, Topic 6<br/>
-Useful links: [YouTube](#), [LeetCode #271](#)
+#271,Med.,Topic6<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+271+Encode+and+Decode+Strings+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#271_Encode and Decode Strings](#)
 
@@ -906,6 +949,10 @@ Example 1:
 Input: words = ["lint","code","love","you"]
 Output: "4#lint4#code4#love3#you"
 
+Example 2:
+Input: words = ["we","say",":","yes"]
+Output: "2#we3#say1#:3#yes"
+
 </details>
 
 <details>
@@ -913,17 +960,18 @@ Output: "4#lint4#code4#love3#you"
 
 ```python
 class Codec:
-    def encode(self, strs: list[str]) -> str:
+    def encode(self, strs):
         return ''.join(f'{len(s)}#{s}' for s in strs)
 
-    def decode(self, s: str) -> list[str]:
+    def decode(self, s):
         res = []
         i = 0
         while i < len(s):
             j = s.find('#', i)
             length = int(s[i:j])
-            res.append(s[j + 1:j + 1 + length])
-            i = j + 1 + length
+            i = j + 1
+            res.append(s[i:i + length])
+            i += length
         return res
 ```
 
@@ -932,26 +980,26 @@ class Codec:
 <details>
 <summary>Space & Time Complexity</summary>
 
-Time Complexity: O(n)
-Space Complexity: O(n)
+Time Complexity: O(total characters)
+Space Complexity: O(total characters)
 
 </details>
 
 </details>
+
 
 <details>
-<summary>🟨 Palindromic Substrings — (Topic 3) #647</summary>
+<summary><strong>✅ Q17 : Palindromic Substrings</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#647, Medium, Topic 3<br/>
-Useful links: [YouTube](#), [LeetCode #647](#)
+#647,Med.,Topic3<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+647+Palindromic+Substrings+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#647_Palindromic Substrings](#)
 
@@ -975,19 +1023,20 @@ Output: 6
 
 ```python
 class Solution:
-    def countSubstrings(self, s: str) -> int:
+    def countSubstrings(self, s):
         count = 0
+
+        def expand(l, r):
+            nonlocal count
+            while l >= 0 and r < len(s) and s[l] == s[r]:
+                count += 1
+                l -= 1
+                r += 1
+
         for i in range(len(s)):
-            l, r = i, i
-            while l >= 0 and r < len(s) and s[l] == s[r]:
-                count += 1
-                l -= 1
-                r += 1
-            l, r = i, i + 1
-            while l >= 0 and r < len(s) and s[l] == s[r]:
-                count += 1
-                l -= 1
-                r += 1
+            expand(i, i)
+            expand(i, i + 1)
+
         return count
 ```
 
@@ -1003,19 +1052,19 @@ Space Complexity: O(1)
 
 </details>
 
+
 <details>
-<summary>🟧 Minimum Window Substring — (Topic 5) #76</summary>
+<summary><strong>✅ Q18 : Minimum Window Substring</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#76, Hard, Topic 5<br/>
-Useful links: [YouTube](#), [LeetCode #76](#)
+#76,Hard,Topic5<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+76+Minimum+Window+Substring+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#76_Minimum Window Substring](#)
 
@@ -1028,6 +1077,10 @@ Example 1:
 Input: s = "ADOBECODEBANC", t = "ABC"
 Output: "BANC"
 
+Example 2:
+Input: s = "a", t = "aa"
+Output: ""
+
 </details>
 
 <details>
@@ -1037,25 +1090,28 @@ Output: "BANC"
 from collections import Counter
 
 class Solution:
-    def minWindow(self, s: str, t: str) -> str:
+    def minWindow(self, s, t):
         need = Counter(t)
         missing = len(t)
         left = 0
-        best = (float('inf'), None, None)
+        best = (-1, float('inf'))
+
         for right, ch in enumerate(s):
             if need[ch] > 0:
                 missing -= 1
             need[ch] -= 1
+
             while missing == 0:
-                if right - left + 1 < best[0]:
-                    best = (right - left + 1, left, right)
+                if right - left + 1 < best[1]:
+                    best = (left, right - left + 1)
                 need[s[left]] += 1
                 if need[s[left]] > 0:
                     missing += 1
                 left += 1
-        if best[1] is None:
+
+        if best[0] == -1:
             return ""
-        return s[best[1]:best[2] + 1]
+        return s[best[0]:best[0] + best[1]]
 ```
 
 </details>
@@ -1070,19 +1126,19 @@ Space Complexity: O(k)
 
 </details>
 
+
 <details>
-<summary>🟧 Regular Expression Matching — (Topic 8) #10</summary>
+<summary><strong>✅ Q19 : Regular Expression Matching</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#10, Hard, Topic 8<br/>
-Useful links: [YouTube](#), [LeetCode #10](#)
+#10,Hard,Topic8<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+10+Regular+Expression+Matching+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#10_Regular Expression Matching](#)
 
@@ -1106,18 +1162,21 @@ Output: true
 
 ```python
 class Solution:
-    def isMatch(self, s: str, p: str) -> bool:
+    def isMatch(self, s, p):
         dp = [[False] * (len(p) + 1) for _ in range(len(s) + 1)]
         dp[0][0] = True
-        for j in range(2, len(p) + 1):
+
+        for j in range(1, len(p) + 1):
             if p[j - 1] == '*':
                 dp[0][j] = dp[0][j - 2]
+
         for i in range(1, len(s) + 1):
             for j in range(1, len(p) + 1):
                 if p[j - 1] == s[i - 1] or p[j - 1] == '.':
                     dp[i][j] = dp[i - 1][j - 1]
                 elif p[j - 1] == '*':
                     dp[i][j] = dp[i][j - 2] or (dp[i - 1][j] and (p[j - 2] == s[i - 1] or p[j - 2] == '.'))
+
         return dp[len(s)][len(p)]
 ```
 
@@ -1133,19 +1192,19 @@ Space Complexity: O(n * m)
 
 </details>
 
+
 <details>
-<summary>🟧 Edit Distance — (Topic 8) #72</summary>
+<summary><strong>✅ Q20 : Edit Distance</strong></summary>
 
 <details>
 <summary>Details</summary>
 
-#72, Hard, Topic 8<br/>
-Useful links: [YouTube](#), [LeetCode #72](#)
+#72,Med.,Topic8<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+72+Edit+Distance+solution)
 
 </details>
 
 <details>
-<summary>Recording</summary>
+<summary>recording</summary>
 
 [#72_Edit Distance](#)
 
@@ -1169,19 +1228,22 @@ Output: 5
 
 ```python
 class Solution:
-    def minDistance(self, word1: str, word2: str) -> int:
+    def minDistance(self, word1, word2):
         m, n = len(word1), len(word2)
         dp = [[0] * (n + 1) for _ in range(m + 1)]
+
         for i in range(m + 1):
             dp[i][0] = i
         for j in range(n + 1):
             dp[0][j] = j
+
         for i in range(1, m + 1):
             for j in range(1, n + 1):
                 if word1[i - 1] == word2[j - 1]:
                     dp[i][j] = dp[i - 1][j - 1]
                 else:
                     dp[i][j] = 1 + min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1])
+
         return dp[m][n]
 ```
 
