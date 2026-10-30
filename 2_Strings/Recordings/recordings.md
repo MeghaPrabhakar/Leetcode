@@ -1,6 +1,7 @@
 # Recordings
 
-## Q1 : 🟩 Longest Common Prefix — (Topic 1) #14
+## Q1 : Longest Common Prefix
+Details : #14,Easy,Topic1
 
 <details>
 <summary>recording_problem_name</summary>
@@ -51,7 +52,8 @@ Space Complexity: O(1)
 
 ---
 
-## Q2 : 🟩 Valid Palindrome — (Topic 3) #125
+## Q2 : Valid Palindrome
+Details : #125,Easy,Topic3
 
 <details>
 <summary>recording_problem_name</summary>
@@ -95,7 +97,8 @@ Space Complexity: O(n)
 
 ---
 
-## Q3 : 🟩 Valid Anagram — (Topic 4) #242
+## Q3 : Valid Anagram
+Details : #242,Easy,Topic4
 
 <details>
 <summary>recording_problem_name</summary>
@@ -138,7 +141,8 @@ Space Complexity: O(n)
 
 ---
 
-## Q4 : 🟩 First Unique Character in a String — (Topic 2) #387
+## Q4 : First Unique Character in a String
+Details : #387,Easy,Topic2
 
 <details>
 <summary>recording_problem_name</summary>
@@ -187,7 +191,8 @@ Space Complexity: O(1)
 
 ---
 
-## Q5 : 🟩 Is Subsequence — (Topic 5) #392
+## Q5 : Is Subsequence
+Details : #392,Easy,Topic5
 
 <details>
 <summary>recording_problem_name</summary>
@@ -234,7 +239,8 @@ Space Complexity: O(1)
 
 ---
 
-## Q6 : 🟩 Reverse String — (Topic 1) #344
+## Q6 : Reverse String
+Details : #344,Easy,Topic1
 
 <details>
 <summary>recording_problem_name</summary>
@@ -281,7 +287,8 @@ Space Complexity: O(1)
 
 ---
 
-## Q7 : 🟩 Reverse Words in a String III — (Topic 1) #557
+## Q7 : Reverse Words in a String III
+Details : #557,Easy,Topic1
 
 <details>
 <summary>recording_problem_name</summary>
@@ -325,7 +332,8 @@ Space Complexity: O(n)
 
 ---
 
-## Q8 : 🟨 Group Anagrams — (Topic 4) #49
+## Q8 : Group Anagrams
+Details : #49,Med.,Topic4
 
 <details>
 <summary>recording_problem_name</summary>
@@ -373,7 +381,8 @@ Space Complexity: O(n * k)
 
 ---
 
-## Q9 : 🟨 String Compression — (Topic 7) #443
+## Q9 : String Compression
+Details : #443,Med.,Topic7
 
 <details>
 <summary>recording_problem_name</summary>
@@ -430,7 +439,8 @@ Space Complexity: O(1)
 
 ---
 
-## Q10 : 🟨 Longest Palindromic Substring — (Topic 3) #5
+## Q10 : Longest Palindromic Substring
+Details : #5,Med.,Topic3
 
 <details>
 <summary>recording_problem_name</summary>
@@ -491,7 +501,8 @@ Space Complexity: O(1)
 
 ---
 
-## Q11 : 🟨 Longest Substring Without Repeating Characters — (Topic 5) #3
+## Q11 : Longest Substring Without Repeating Characters
+Details : #3,Med.,Topic5
 
 <details>
 <summary>recording_problem_name</summary>
@@ -544,7 +555,8 @@ Space Complexity: O(min(n, 256))
 
 ---
 
-## Q12 : 🟨 Longest Repeating Character Replacement — (Topic 5) #424
+## Q12 : Longest Repeating Character Replacement
+Details : #424,Med.,Topic5
 
 <details>
 <summary>recording_problem_name</summary>
@@ -604,7 +616,8 @@ Space Complexity: O(1)
 
 ---
 
-## Q13 : 🟨 Find All Anagrams in a String — (Topic 4) #438
+## Q13 : Find All Anagrams in a String
+Details : #438,Med.,Topic4
 
 <details>
 <summary>recording_problem_name</summary>
@@ -664,7 +677,8 @@ Space Complexity: O(k)
 
 ---
 
-## Q14 : 🟨 Decode String — (Topic 6) #394
+## Q14 : Decode String
+Details : #394,Med.,Topic6
 
 <details>
 <summary>recording_problem_name</summary>
@@ -724,7 +738,8 @@ Space Complexity: O(n)
 
 ---
 
-## Q15 : 🟨 String to Integer (atoi) — (Topic 6) #8
+## Q15 : String to Integer (atoi)
+Details : #8,Med.,Topic6
 
 <details>
 <summary>recording_problem_name</summary>
@@ -786,7 +801,8 @@ Space Complexity: O(1)
 
 ---
 
-## Q16 : 🟨 Encode and Decode Strings — (Topic 6) #271
+## Q16 : Encode and Decode Strings
+Details : #271,Med.,Topic6
 
 <details>
 <summary>recording_problem_name</summary>
@@ -840,7 +856,8 @@ Space Complexity: O(total characters)
 
 ---
 
-## Q17 : 🟨 Palindromic Substrings — (Topic 3) #647
+## Q17 : Palindromic Substrings
+Details : #647,Med.,Topic3
 
 <details>
 <summary>recording_problem_name</summary>
@@ -896,7 +913,8 @@ Space Complexity: O(1)
 
 ---
 
-## Q18 : 🟧 Minimum Window Substring — (Topic 5) #76
+## Q18 : Minimum Window Substring
+Details : #76,Hard,Topic5
 
 <details>
 <summary>recording_problem_name</summary>
@@ -961,7 +979,8 @@ Space Complexity: O(k)
 
 ---
 
-## Q19 : 🟧 Regular Expression Matching — (Topic 8) #10
+## Q19 : Regular Expression Matching
+Details : #10,Hard,Topic8
 
 <details>
 <summary>recording_problem_name</summary>
@@ -1018,7 +1037,8 @@ Space Complexity: O(n * m)
 
 ---
 
-## Q20 : 🟧 Edit Distance — (Topic 8) #72
+## Q20 : Edit Distance
+Details : #72,Med.,Topic8
 
 <details>
 <summary>recording_problem_name</summary>
