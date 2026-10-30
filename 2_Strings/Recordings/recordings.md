@@ -1,7 +1,7 @@
 # Recordings
 
 <details>
-<summary>Q1 : Longest Common Prefix</summary>
+<summary><font color="green">Q1 : Longest Common Prefix</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -61,7 +61,7 @@ Space Complexity: O(1)
 
 
 <details>
-<summary>Q2 : Valid Palindrome</summary>
+<summary><font color="green">Q2 : Valid Palindrome</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -114,7 +114,7 @@ Space Complexity: O(n)
 
 
 <details>
-<summary>Q3 : Valid Anagram</summary>
+<summary><font color="green">Q3 : Valid Anagram</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -166,7 +166,7 @@ Space Complexity: O(n)
 
 
 <details>
-<summary>Q4 : First Unique Character in a String</summary>
+<summary><font color="green">Q4 : First Unique Character in a String</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -224,7 +224,7 @@ Space Complexity: O(1)
 
 
 <details>
-<summary>Q5 : Is Subsequence</summary>
+<summary><font color="green">Q5 : Is Subsequence</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -280,7 +280,7 @@ Space Complexity: O(1)
 
 
 <details>
-<summary>Q6 : Reverse String</summary>
+<summary><font color="green">Q6 : Reverse String</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -336,7 +336,7 @@ Space Complexity: O(1)
 
 
 <details>
-<summary>Q7 : Reverse Words in a String III</summary>
+<summary><font color="green">Q7 : Reverse Words in a String III</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -389,7 +389,7 @@ Space Complexity: O(n)
 
 
 <details>
-<summary>Q8 : Group Anagrams</summary>
+<summary><font color="green">Q8 : Group Anagrams</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -446,7 +446,7 @@ Space Complexity: O(n * k)
 
 
 <details>
-<summary>Q9 : String Compression</summary>
+<summary><font color="green">Q9 : String Compression</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -512,7 +512,7 @@ Space Complexity: O(1)
 
 
 <details>
-<summary>Q10 : Longest Palindromic Substring</summary>
+<summary><font color="green">Q10 : Longest Palindromic Substring</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -582,7 +582,7 @@ Space Complexity: O(1)
 
 
 <details>
-<summary>Q11 : Longest Substring Without Repeating Characters</summary>
+<summary><font color="green">Q11 : Longest Substring Without Repeating Characters</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -644,7 +644,7 @@ Space Complexity: O(min(n, 256))
 
 
 <details>
-<summary>Q12 : Longest Repeating Character Replacement</summary>
+<summary><font color="green">Q12 : Longest Repeating Character Replacement</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -713,7 +713,7 @@ Space Complexity: O(1)
 
 
 <details>
-<summary>Q13 : Find All Anagrams in a String</summary>
+<summary><font color="green">Q13 : Find All Anagrams in a String</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -782,7 +782,7 @@ Space Complexity: O(k)
 
 
 <details>
-<summary>Q14 : Decode String</summary>
+<summary><font color="green">Q14 : Decode String</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -851,7 +851,7 @@ Space Complexity: O(n)
 
 
 <details>
-<summary>Q15 : String to Integer (atoi)</summary>
+<summary><font color="green">Q15 : String to Integer (atoi)</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -922,7 +922,7 @@ Space Complexity: O(1)
 
 
 <details>
-<summary>Q16 : Encode and Decode Strings</summary>
+<summary><font color="green">Q16 : Encode and Decode Strings</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -985,7 +985,7 @@ Space Complexity: O(total characters)
 
 
 <details>
-<summary>Q17 : Palindromic Substrings</summary>
+<summary><font color="green">Q17 : Palindromic Substrings</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -1050,7 +1050,7 @@ Space Complexity: O(1)
 
 
 <details>
-<summary>Q18 : Minimum Window Substring</summary>
+<summary><font color="green">Q18 : Minimum Window Substring</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -1124,7 +1124,7 @@ Space Complexity: O(k)
 
 
 <details>
-<summary>Q19 : Regular Expression Matching</summary>
+<summary><font color="green">Q19 : Regular Expression Matching</font></summary>
 
 <details>
 <summary>Details</summary>
@@ -1190,7 +1190,7 @@ Space Complexity: O(n * m)
 
 
 <details>
-<summary>Q20 : Edit Distance</summary>
+<summary><font color="green">Q20 : Edit Distance</font></summary>
 
 <details>
 <summary>Details</summary>
