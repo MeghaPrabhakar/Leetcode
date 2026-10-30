@@ -6,7 +6,7 @@
 <details>
 <summary>Details</summary>
 
-#412,Topic1<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+412+Fizz+Buzz+solution)
+#412,Topic1<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+412+Fizz+Buzz+solution), [LeetCode #412](https://leetcode.com/problems/fizz-buzz/)
 
 </details>
 
@@ -67,7 +67,7 @@ Space Complexity: O(1) extra space
 <details>
 <summary>Details</summary>
 
-#1480,Topic2<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+1480+Running+Sum+of+1D+Array+solution)
+#1480,Topic2<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+1480+Running+Sum+of+1D+Array+solution), [LeetCode #1480](https://leetcode.com/problems/running-sum-of-1d-array/)
 
 </details>
 
@@ -123,7 +123,7 @@ Space Complexity: O(n)
 <details>
 <summary>Details</summary>
 
-#1672,Topic2<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+1672+Richest+Customer+Wealth+solution)
+#1672,Topic2<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+1672+Richest+Customer+Wealth+solution), [LeetCode #1672](https://leetcode.com/problems/richest-customer-wealth/)
 
 </details>
 
@@ -177,7 +177,7 @@ Space Complexity: O(1)
 <details>
 <summary>Details</summary>
 
-#1295,Topic2<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+1295+Find+Numbers+with+Even+Number+of+Digits+solution)
+#1295,Topic2<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+1295+Find+Numbers+with+Even+Number+of+Digits+solution), [LeetCode #1295](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
 
 </details>
 
@@ -233,7 +233,7 @@ Space Complexity: O(1)
 <details>
 <summary>Details</summary>
 
-#724,Topic3<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+724+Find+Pivot+Index+solution)
+#724,Topic3<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+724+Find+Pivot+Index+solution), [LeetCode #724](https://leetcode.com/problems/find-pivot-index/)
 
 </details>
 
@@ -290,7 +290,7 @@ Space Complexity: O(1)
 <details>
 <summary>Details</summary>
 
-#704,Topic3<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+704+Binary+Search+solution)
+#704,Topic3<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+704+Binary+Search+solution), [LeetCode #704](https://leetcode.com/problems/binary-search/)
 
 </details>
 
@@ -350,7 +350,7 @@ Space Complexity: O(1)
 <details>
 <summary>Details</summary>
 
-#509,Topic4<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+509+Fibonacci+Number+solution)
+#509,Topic4<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+509+Fibonacci+Number+solution), [LeetCode #509](https://leetcode.com/problems/fibonacci-number/)
 
 </details>
 
@@ -406,7 +406,7 @@ Space Complexity: O(1)
 <details>
 <summary>Details</summary>
 
-#70,Topic4<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+70+Climbing+Stairs+solution)
+#70,Topic4<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+70+Climbing+Stairs+solution), [LeetCode #70](https://leetcode.com/problems/climbing-stairs/)
 
 </details>
 
