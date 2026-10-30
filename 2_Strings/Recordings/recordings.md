@@ -8,6 +8,9 @@
 
 #14,Easy,Topic1
 
+Useful links:
+[LeetCode Problem](#)
+
 </details>
 
 <details>
@@ -72,6 +75,9 @@ Space Complexity: O(1)
 
 #125,Easy,Topic3
 
+Useful links:
+[LeetCode Problem](#)
+
 </details>
 
 <details>
@@ -125,6 +131,9 @@ Space Complexity: O(n)
 
 #242,Easy,Topic4
 
+Useful links:
+[LeetCode Problem](#)
+
 </details>
 
 <details>
@@ -176,6 +185,9 @@ Space Complexity: O(n)
 <summary>Details</summary>
 
 #387,Easy,Topic2
+
+Useful links:
+[LeetCode Problem](#)
 
 </details>
 
@@ -235,6 +247,9 @@ Space Complexity: O(1)
 
 #392,Easy,Topic5
 
+Useful links:
+[LeetCode Problem](#)
+
 </details>
 
 <details>
@@ -290,6 +305,9 @@ Space Complexity: O(1)
 <summary>Details</summary>
 
 #344,Easy,Topic1
+
+Useful links:
+[LeetCode Problem](#)
 
 </details>
 
@@ -347,6 +365,9 @@ Space Complexity: O(1)
 
 #557,Easy,Topic1
 
+Useful links:
+[LeetCode Problem](#)
+
 </details>
 
 <details>
@@ -399,6 +420,9 @@ Space Complexity: O(n)
 <summary>Details</summary>
 
 #49,Med.,Topic4
+
+Useful links:
+[LeetCode Problem](#)
 
 </details>
 
@@ -456,6 +480,9 @@ Space Complexity: O(n * k)
 <summary>Details</summary>
 
 #443,Med.,Topic7
+
+Useful links:
+[LeetCode Problem](#)
 
 </details>
 
@@ -522,6 +549,9 @@ Space Complexity: O(1)
 <summary>Details</summary>
 
 #5,Med.,Topic3
+
+Useful links:
+[LeetCode Problem](#)
 
 </details>
 
@@ -593,6 +623,9 @@ Space Complexity: O(1)
 
 #3,Med.,Topic5
 
+Useful links:
+[LeetCode Problem](#)
+
 </details>
 
 <details>
@@ -654,6 +687,9 @@ Space Complexity: O(min(n, 256))
 <summary>Details</summary>
 
 #424,Med.,Topic5
+
+Useful links:
+[LeetCode Problem](#)
 
 </details>
 
@@ -724,6 +760,9 @@ Space Complexity: O(1)
 
 #438,Med.,Topic4
 
+Useful links:
+[LeetCode Problem](#)
+
 </details>
 
 <details>
@@ -793,6 +832,9 @@ Space Complexity: O(k)
 
 #394,Med.,Topic6
 
+Useful links:
+[LeetCode Problem](#)
+
 </details>
 
 <details>
@@ -861,6 +903,9 @@ Space Complexity: O(n)
 <summary>Details</summary>
 
 #8,Med.,Topic6
+
+Useful links:
+[LeetCode Problem](#)
 
 </details>
 
@@ -933,6 +978,9 @@ Space Complexity: O(1)
 
 #271,Med.,Topic6
 
+Useful links:
+[LeetCode Problem](#)
+
 </details>
 
 <details>
@@ -995,6 +1043,9 @@ Space Complexity: O(total characters)
 <summary>Details</summary>
 
 #647,Med.,Topic3
+
+Useful links:
+[LeetCode Problem](#)
 
 </details>
 
@@ -1060,6 +1111,9 @@ Space Complexity: O(1)
 <summary>Details</summary>
 
 #76,Hard,Topic5
+
+Useful links:
+[LeetCode Problem](#)
 
 </details>
 
@@ -1135,6 +1189,9 @@ Space Complexity: O(k)
 
 #10,Hard,Topic8
 
+Useful links:
+[LeetCode Problem](#)
+
 </details>
 
 <details>
@@ -1201,6 +1258,9 @@ Space Complexity: O(n * m)
 
 #72,Med.,Topic8
 
+Useful links:
+[LeetCode Problem](#)
+
 </details>
 
 <details>
@@ -1258,3 +1318,4 @@ Space Complexity: O(m * n)
 </details>
 
 </details>
+
