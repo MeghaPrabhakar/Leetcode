@@ -20,6 +20,13 @@
 <details>
 <summary>Sample Input & Output</summary>
 
+Given an integer n, return a string array answer (1-indexed) where:
+
+- answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
+- answer[i] == "Fizz" if i is divisible by 3.
+- answer[i] == "Buzz" if i is divisible by 5.
+- answer[i] == str(i) if none of the above conditions are true.
+
 Example 1:
 Input: n = 3
 Output: ["1","2","Fizz"]
@@ -27,6 +34,10 @@ Output: ["1","2","Fizz"]
 Example 2:
 Input: n = 5
 Output: ["1","2","Fizz","4","Buzz"]
+
+Example 3:
+Input: n = 15
+Output: ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]
 
 </details>
 
@@ -81,6 +92,10 @@ Space Complexity: O(1) extra space
 <details>
 <summary>Sample Input & Output</summary>
 
+Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]...nums[i]).
+
+Return the running sum of nums.
+
 Example 1:
 Input: nums = [1,2,3,4]
 Output: [1,3,6,10]
@@ -88,6 +103,10 @@ Output: [1,3,6,10]
 Example 2:
 Input: nums = [1,1,1]
 Output: [1,2,3]
+
+Example 3:
+Input: nums = [3,1,2,10,1]
+Output: [3,4,6,16,17]
 
 </details>
 
@@ -137,6 +156,10 @@ Space Complexity: O(n)
 <details>
 <summary>Sample Input & Output</summary>
 
+You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i-th customer has in the j-th bank. Return the wealth that the richest customer has.
+
+A customer's wealth is the sum of the amounts in their accounts. The richest customer is the customer with the maximum wealth.
+
 Example 1:
 Input: accounts = [[1,2,3],[3,2,1]]
 Output: 6
@@ -144,6 +167,10 @@ Output: 6
 Example 2:
 Input: accounts = [[1,5],[7,3],[3,5]]
 Output: 10
+
+Example 3:
+Input: accounts = [[2,8,7],[7,1,3],[1,9,5]]
+Output: 17
 
 </details>
 
@@ -191,12 +218,18 @@ Space Complexity: O(1)
 <details>
 <summary>Sample Input & Output</summary>
 
+Given an array nums of integers, return how many of them contain an even number of digits.
+
 Example 1:
 Input: nums = [12,345,2,6,7896]
 Output: 2
 
 Example 2:
 Input: nums = [555,901,482,1771]
+Output: 1
+
+Example 3:
+Input: nums = [100000]
 Output: 1
 
 </details>
@@ -247,6 +280,12 @@ Space Complexity: O(1)
 <details>
 <summary>Sample Input & Output</summary>
 
+Given an array of integers nums, calculate the pivot index of this array.
+
+The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the right of the index.
+
+If no such index exists, return -1.
+
 Example 1:
 Input: nums = [1,7,3,6,5,6]
 Output: 3
@@ -254,6 +293,10 @@ Output: 3
 Example 2:
 Input: nums = [1,2,3]
 Output: -1
+
+Example 3:
+Input: nums = [2,1,-1]
+Output: 0
 
 </details>
 
@@ -304,6 +347,10 @@ Space Complexity: O(1)
 <details>
 <summary>Sample Input & Output</summary>
 
+Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, return its index. Otherwise, return -1.
+
+You must write an algorithm with O(log n) runtime complexity.
+
 Example 1:
 Input: nums = [-1,0,3,5,9,12], target = 9
 Output: 4
@@ -311,6 +358,10 @@ Output: 4
 Example 2:
 Input: nums = [-1,0,3,5,9,12], target = 2
 Output: -1
+
+Example 3:
+Input: nums = [5], target = 5
+Output: 0
 
 </details>
 
@@ -364,6 +415,12 @@ Space Complexity: O(1)
 <details>
 <summary>Sample Input & Output</summary>
 
+The Fibonacci numbers, commonly denoted F(n), form a sequence such that each number is the sum of the two preceding ones, starting from 0 and 1. That is:
+
+F(0) = 0, F(1) = 1, and for n > 1, F(n) = F(n - 1) + F(n - 2).
+
+Given n, calculate F(n).
+
 Example 1:
 Input: n = 2
 Output: 1
@@ -371,6 +428,10 @@ Output: 1
 Example 2:
 Input: n = 3
 Output: 2
+
+Example 3:
+Input: n = 4
+Output: 3
 
 </details>
 
@@ -420,6 +481,10 @@ Space Complexity: O(1)
 <details>
 <summary>Sample Input & Output</summary>
 
+You are climbing a staircase. It takes n steps to reach the top.
+
+Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+
 Example 1:
 Input: n = 2
 Output: 2
@@ -427,6 +492,10 @@ Output: 2
 Example 2:
 Input: n = 3
 Output: 3
+
+Example 3:
+Input: n = 5
+Output: 8
 
 </details>
 
