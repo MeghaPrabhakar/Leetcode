@@ -6,7 +6,7 @@
 <details>
 <summary>Details</summary>
 
-#14,Easy,Topic1<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+14+Longest+Common+Prefix+solution)
+#14,Easy,Topic1<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+14+Longest+Common+Prefix+solution), [LeetCode #14](https://leetcode.com/problems/longest-common-prefix/)
 
 </details>
 
@@ -77,7 +77,7 @@ Space Complexity: O(1)
 <details>
 <summary>Details</summary>
 
-#125,Easy,Topic3<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+125+Valid+Palindrome+solution)
+#125,Easy,Topic3<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+125+Valid+Palindrome+solution), [LeetCode #125](https://leetcode.com/problems/valid-palindrome/)
 
 </details>
 
@@ -136,7 +136,7 @@ Space Complexity: O(n)
 <details>
 <summary>Details</summary>
 
-#242,Easy,Topic4<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+242+Valid+Anagram+solution)
+#242,Easy,Topic4<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+242+Valid+Anagram+solution), [LeetCode #242](https://leetcode.com/problems/valid-anagram/)
 
 </details>
 
@@ -194,7 +194,7 @@ Space Complexity: O(n)
 <details>
 <summary>Details</summary>
 
-#387,Easy,Topic2<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+387+First+Unique+Character+in+a+String+solution)
+#387,Easy,Topic2<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+387+First+Unique+Character+in+a+String+solution), [LeetCode #387](https://leetcode.com/problems/first-unique-character-in-a-string/)
 
 </details>
 
@@ -258,7 +258,7 @@ Space Complexity: O(1)
 <details>
 <summary>Details</summary>
 
-#392,Easy,Topic5<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+392+Is+Subsequence+solution)
+#392,Easy,Topic5<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+392+Is+Subsequence+solution), [LeetCode #392](https://leetcode.com/problems/is-subsequence/)
 
 </details>
 
@@ -321,7 +321,7 @@ Space Complexity: O(1)
 <details>
 <summary>Details</summary>
 
-#344,Easy,Topic1<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+344+Reverse+String+solution)
+#344,Easy,Topic1<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+344+Reverse+String+solution), [LeetCode #344](https://leetcode.com/problems/reverse-string/)
 
 </details>
 
@@ -383,7 +383,7 @@ Space Complexity: O(1)
 <details>
 <summary>Details</summary>
 
-#557,Easy,Topic1<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+557+Reverse+Words+in+a+String+III+solution)
+#557,Easy,Topic1<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+557+Reverse+Words+in+a+String+III+solution), [LeetCode #557](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
 
 </details>
 
@@ -442,7 +442,7 @@ Space Complexity: O(n)
 <details>
 <summary>Details</summary>
 
-#49,Med.,Topic4<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+49+Group+Anagrams+solution)
+#49,Med.,Topic4<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+49+Group+Anagrams+solution), [LeetCode #49](https://leetcode.com/problems/group-anagrams/)
 
 </details>
 
@@ -505,7 +505,7 @@ Space Complexity: O(n * k)
 <details>
 <summary>Details</summary>
 
-#443,Med.,Topic7<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+443+String+Compression+solution)
+#443,Med.,Topic7<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+443+String+Compression+solution), [LeetCode #443](https://leetcode.com/problems/string-compression/)
 
 </details>
 
@@ -576,7 +576,7 @@ Space Complexity: O(1)
 <details>
 <summary>Details</summary>
 
-#5,Med.,Topic3<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+5+Longest+Palindromic+Substring+solution)
+#5,Med.,Topic3<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+5+Longest+Palindromic+Substring+solution), [LeetCode #5](https://leetcode.com/problems/longest-palindromic-substring/)
 
 </details>
 
@@ -651,7 +651,7 @@ Space Complexity: O(1)
 <details>
 <summary>Details</summary>
 
-#3,Med.,Topic5<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+3+Longest+Substring+Without+Repeating+Characters+solution)
+#3,Med.,Topic5<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+3+Longest+Substring+Without+Repeating+Characters+solution), [LeetCode #3](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 </details>
 
@@ -718,7 +718,7 @@ Space Complexity: O(min(n, 256))
 <details>
 <summary>Details</summary>
 
-#424,Med.,Topic5<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+424+Longest+Repeating+Character+Replacement+solution)
+#424,Med.,Topic5<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+424+Longest+Repeating+Character+Replacement+solution), [LeetCode #424](https://leetcode.com/problems/longest-repeating-character-replacement/)
 
 </details>
 
@@ -793,7 +793,7 @@ Space Complexity: O(1)
 <details>
 <summary>Details</summary>
 
-#438,Med.,Topic4<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+438+Find+All+Anagrams+in+a+String+solution)
+#438,Med.,Topic4<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+438+Find+All+Anagrams+in+a+String+solution), [LeetCode #438](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 
 </details>
 
@@ -867,7 +867,7 @@ Space Complexity: O(k)
 <details>
 <summary>Details</summary>
 
-#394,Med.,Topic6<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+394+Decode+String+solution)
+#394,Med.,Topic6<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+394+Decode+String+solution), [LeetCode #394](https://leetcode.com/problems/decode-string/)
 
 </details>
 
@@ -942,7 +942,7 @@ Space Complexity: O(n)
 <details>
 <summary>Details</summary>
 
-#8,Med.,Topic6<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+8+String+to+Integer+atoi+solution)
+#8,Med.,Topic6<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+8+String+to+Integer+atoi+solution), [LeetCode #8](https://leetcode.com/problems/string-to-integer-atoi/)
 
 </details>
 
@@ -1018,7 +1018,7 @@ Space Complexity: O(1)
 <details>
 <summary>Details</summary>
 
-#271,Med.,Topic6<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+271+Encode+and+Decode+Strings+solution)
+#271,Med.,Topic6<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+271+Encode+and+Decode+Strings+solution), [LeetCode #271](https://leetcode.com/problems/encode-and-decode-strings/)
 
 </details>
 
@@ -1087,7 +1087,7 @@ Space Complexity: O(total characters)
 <details>
 <summary>Details</summary>
 
-#647,Med.,Topic3<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+647+Palindromic+Substrings+solution)
+#647,Med.,Topic3<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+647+Palindromic+Substrings+solution), [LeetCode #647](https://leetcode.com/problems/palindromic-substrings/)
 
 </details>
 
@@ -1156,7 +1156,7 @@ Space Complexity: O(1)
 <details>
 <summary>Details</summary>
 
-#76,Hard,Topic5<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+76+Minimum+Window+Substring+solution)
+#76,Hard,Topic5<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+76+Minimum+Window+Substring+solution), [LeetCode #76](https://leetcode.com/problems/minimum-window-substring/)
 
 </details>
 
@@ -1231,7 +1231,7 @@ Space Complexity: O(k)
 <details>
 <summary>Details</summary>
 
-#10,Hard,Topic8<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+10+Regular+Expression+Matching+solution)
+#10,Hard,Topic8<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+10+Regular+Expression+Matching+solution), [LeetCode #10](https://leetcode.com/problems/regular-expression-matching/)
 
 </details>
 
@@ -1301,7 +1301,7 @@ Space Complexity: O(n * m)
 <details>
 <summary>Details</summary>
 
-#72,Hard,Topic8<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+72+Edit+Distance+solution)
+#72,Hard,Topic8<br/>Useful links: [YouTube](https://www.youtube.com/results?search_query=LeetCode+72+Edit+Distance+solution), [LeetCode #72](https://leetcode.com/problems/edit-distance/)
 
 </details>
 
