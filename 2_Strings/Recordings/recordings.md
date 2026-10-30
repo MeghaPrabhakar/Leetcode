@@ -1,7 +1,7 @@
 # Recordings
 
 <details>
-<summary>🟩 Longest Common Prefix — (Topic 1) #14</summary>
+<summary>Q1 : 🟩 Longest Common Prefix — (Topic 1) #14</summary>
 
 <details>
 <summary>Details</summary>
@@ -61,7 +61,7 @@ Space Complexity: O(1)
 </details>
 
 <details>
-<summary>🟩 Valid Palindrome — (Topic 3) #125</summary>
+<summary>Q2 : 🟩 Valid Palindrome — (Topic 3) #125</summary>
 
 <details>
 <summary>Details</summary>
@@ -114,7 +114,7 @@ Space Complexity: O(n)
 </details>
 
 <details>
-<summary>🟩 Valid Anagram — (Topic 4) #242</summary>
+<summary>Q3 : 🟩 Valid Anagram — (Topic 4) #242</summary>
 
 <details>
 <summary>Details</summary>
@@ -166,7 +166,7 @@ Space Complexity: O(n)
 </details>
 
 <details>
-<summary>🟩 First Unique Character in a String — (Topic 2) #387</summary>
+<summary>Q4 : 🟩 First Unique Character in a String — (Topic 2) #387</summary>
 
 <details>
 <summary>Details</summary>
@@ -224,7 +224,7 @@ Space Complexity: O(1)
 </details>
 
 <details>
-<summary>🟩 Is Subsequence — (Topic 5) #392</summary>
+<summary>Q5 : 🟩 Is Subsequence — (Topic 5) #392</summary>
 
 <details>
 <summary>Details</summary>
@@ -280,7 +280,7 @@ Space Complexity: O(1)
 </details>
 
 <details>
-<summary>🟩 Reverse String — (Topic 1) #344</summary>
+<summary>Q6 : 🟩 Reverse String — (Topic 1) #344</summary>
 
 <details>
 <summary>Details</summary>
@@ -336,7 +336,7 @@ Space Complexity: O(1)
 </details>
 
 <details>
-<summary>🟩 Reverse Words in a String III — (Topic 1) #557</summary>
+<summary>Q7 : 🟩 Reverse Words in a String III — (Topic 1) #557</summary>
 
 <details>
 <summary>Details</summary>
@@ -385,7 +385,7 @@ Space Complexity: O(n)
 </details>
 
 <details>
-<summary>🟨 Group Anagrams — (Topic 4) #49</summary>
+<summary>Q8 : 🟨 Group Anagrams — (Topic 4) #49</summary>
 
 <details>
 <summary>Details</summary>
@@ -438,7 +438,7 @@ Space Complexity: O(n * k)
 </details>
 
 <details>
-<summary>🟨 String Compression — (Topic 7) #443</summary>
+<summary>Q9 : 🟨 String Compression — (Topic 7) #443</summary>
 
 <details>
 <summary>Details</summary>
@@ -499,7 +499,7 @@ Space Complexity: O(1)
 </details>
 
 <details>
-<summary>🟨 Longest Palindromic Substring — (Topic 3) #5</summary>
+<summary>Q10 : 🟨 Longest Palindromic Substring — (Topic 3) #5</summary>
 
 <details>
 <summary>Details</summary>
@@ -567,7 +567,7 @@ Space Complexity: O(1)
 </details>
 
 <details>
-<summary>🟨 Longest Substring Without Repeating Characters — (Topic 5) #3</summary>
+<summary>Q11 : 🟨 Longest Substring Without Repeating Characters — (Topic 5) #3</summary>
 
 <details>
 <summary>Details</summary>
@@ -627,7 +627,7 @@ Space Complexity: O(min(n, k))
 </details>
 
 <details>
-<summary>🟨 Longest Repeating Character Replacement — (Topic 5) #424</summary>
+<summary>Q12 : 🟨 Longest Repeating Character Replacement — (Topic 5) #424</summary>
 
 <details>
 <summary>Details</summary>
@@ -688,7 +688,7 @@ Space Complexity: O(1)
 </details>
 
 <details>
-<summary>🟨 Find All Anagrams in a String — (Topic 4) #438</summary>
+<summary>Q13 : 🟨 Find All Anagrams in a String — (Topic 4) #438</summary>
 
 <details>
 <summary>Details</summary>
@@ -752,7 +752,7 @@ Space Complexity: O(k)
 </details>
 
 <details>
-<summary>🟨 Decode String — (Topic 6) #394</summary>
+<summary>Q14 : 🟨 Decode String — (Topic 6) #394</summary>
 
 <details>
 <summary>Details</summary>
@@ -817,7 +817,7 @@ Space Complexity: O(n)
 </details>
 
 <details>
-<summary>🟨 String to Integer (atoi) — (Topic 6) #8</summary>
+<summary>Q15 : 🟨 String to Integer (atoi) — (Topic 6) #8</summary>
 
 <details>
 <summary>Details</summary>
@@ -882,7 +882,7 @@ Space Complexity: O(1)
 </details>
 
 <details>
-<summary>🟨 Encode and Decode Strings — (Topic 6) #271</summary>
+<summary>Q16 : 🟨 Encode and Decode Strings — (Topic 6) #271</summary>
 
 <details>
 <summary>Details</summary>
@@ -940,7 +940,7 @@ Space Complexity: O(n)
 </details>
 
 <details>
-<summary>🟨 Palindromic Substrings — (Topic 3) #647</summary>
+<summary>Q17 : 🟨 Palindromic Substrings — (Topic 3) #647</summary>
 
 <details>
 <summary>Details</summary>
@@ -1004,7 +1004,7 @@ Space Complexity: O(1)
 </details>
 
 <details>
-<summary>🟧 Minimum Window Substring — (Topic 5) #76</summary>
+<summary>Q18 : 🟧 Minimum Window Substring — (Topic 5) #76</summary>
 
 <details>
 <summary>Details</summary>
@@ -1071,7 +1071,7 @@ Space Complexity: O(k)
 </details>
 
 <details>
-<summary>🟧 Regular Expression Matching — (Topic 8) #10</summary>
+<summary>Q19 : 🟧 Regular Expression Matching — (Topic 8) #10</summary>
 
 <details>
 <summary>Details</summary>
@@ -1134,7 +1134,7 @@ Space Complexity: O(n * m)
 </details>
 
 <details>
-<summary>🟧 Edit Distance — (Topic 8) #72</summary>
+<summary>Q20 : 🟧 Edit Distance — (Topic 8) #72</summary>
 
 <details>
 <summary>Details</summary>
