@@ -4,29 +4,24 @@
 
 Sample:
 
+<details>
+<summary>Python</summary>
+
 ```python
 class Solution:
     def longestCommonPrefix(self, strs: list[str]) -> str:
-        max_len_psbl = len(min(strs, key=len))
-        i = 0
-        possibilities = []
+        if not strs:
+            return ""
 
-        while i < len(strs):
-            possibilities.append(strs[i][0:max_len_psbl])
-            i += 1
+        prefix = strs[0]
+        for word in strs[1:]:
+            while not word.startswith(prefix):
+                prefix = prefix[:-1]
+                if not prefix:
+                    return ""
 
-        print(possibilities)
-
-        for i in range(len(possibilities) - 1):
-            while possibilities[i][0:max_len_psbl] != possibilities[i + 1][0:max_len_psbl]:
-                print(possibilities[i], possibilities[i + 1])
-                max_len_psbl -= 1
-                print(max_len_psbl)
-
-        return possibilities[0][0:max_len_psbl]
+        return prefix
 ```
-
-Example 1:
 
 ```python
 strs = ["flower", "flow", "flight"]
@@ -34,12 +29,12 @@ print(Solution().longestCommonPrefix(strs))
 # Output: "fl"
 ```
 
-Example 2:
-
 ```python
 strs = ["dog", "racecar", "car"]
 print(Solution().longestCommonPrefix(strs))
 # Output: ""
 ```
+
+</details>
 
 Explanation: There is no common prefix among the input strings.
