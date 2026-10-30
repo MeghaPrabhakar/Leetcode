@@ -1,6 +1,7 @@
 # Recordings
 
-## Q1 : Longest Common Prefix
+<details>
+<summary>Q1 : Longest Common Prefix</summary>
 
 <details>
 <summary>Details</summary>
@@ -56,9 +57,11 @@ Space Complexity: O(1)
 
 </details>
 
----
+</details>
 
-## Q2 : Valid Palindrome
+
+<details>
+<summary>Q2 : Valid Palindrome</summary>
 
 <details>
 <summary>Details</summary>
@@ -107,9 +110,11 @@ Space Complexity: O(n)
 
 </details>
 
----
+</details>
 
-## Q3 : Valid Anagram
+
+<details>
+<summary>Q3 : Valid Anagram</summary>
 
 <details>
 <summary>Details</summary>
@@ -157,9 +162,11 @@ Space Complexity: O(n)
 
 </details>
 
----
+</details>
 
-## Q4 : First Unique Character in a String
+
+<details>
+<summary>Q4 : First Unique Character in a String</summary>
 
 <details>
 <summary>Details</summary>
@@ -213,9 +220,11 @@ Space Complexity: O(1)
 
 </details>
 
----
+</details>
 
-## Q5 : Is Subsequence
+
+<details>
+<summary>Q5 : Is Subsequence</summary>
 
 <details>
 <summary>Details</summary>
@@ -267,9 +276,11 @@ Space Complexity: O(1)
 
 </details>
 
----
+</details>
 
-## Q6 : Reverse String
+
+<details>
+<summary>Q6 : Reverse String</summary>
 
 <details>
 <summary>Details</summary>
@@ -321,9 +332,11 @@ Space Complexity: O(1)
 
 </details>
 
----
+</details>
 
-## Q7 : Reverse Words in a String III
+
+<details>
+<summary>Q7 : Reverse Words in a String III</summary>
 
 <details>
 <summary>Details</summary>
@@ -372,9 +385,11 @@ Space Complexity: O(n)
 
 </details>
 
----
+</details>
 
-## Q8 : Group Anagrams
+
+<details>
+<summary>Q8 : Group Anagrams</summary>
 
 <details>
 <summary>Details</summary>
@@ -427,9 +442,11 @@ Space Complexity: O(n * k)
 
 </details>
 
----
+</details>
 
-## Q9 : String Compression
+
+<details>
+<summary>Q9 : String Compression</summary>
 
 <details>
 <summary>Details</summary>
@@ -491,9 +508,11 @@ Space Complexity: O(1)
 
 </details>
 
----
+</details>
 
-## Q10 : Longest Palindromic Substring
+
+<details>
+<summary>Q10 : Longest Palindromic Substring</summary>
 
 <details>
 <summary>Details</summary>
@@ -559,9 +578,11 @@ Space Complexity: O(1)
 
 </details>
 
----
+</details>
 
-## Q11 : Longest Substring Without Repeating Characters
+
+<details>
+<summary>Q11 : Longest Substring Without Repeating Characters</summary>
 
 <details>
 <summary>Details</summary>
@@ -619,9 +640,11 @@ Space Complexity: O(min(n, 256))
 
 </details>
 
----
+</details>
 
-## Q12 : Longest Repeating Character Replacement
+
+<details>
+<summary>Q12 : Longest Repeating Character Replacement</summary>
 
 <details>
 <summary>Details</summary>
@@ -686,9 +709,11 @@ Space Complexity: O(1)
 
 </details>
 
----
+</details>
 
-## Q13 : Find All Anagrams in a String
+
+<details>
+<summary>Q13 : Find All Anagrams in a String</summary>
 
 <details>
 <summary>Details</summary>
@@ -753,9 +778,11 @@ Space Complexity: O(k)
 
 </details>
 
----
+</details>
 
-## Q14 : Decode String
+
+<details>
+<summary>Q14 : Decode String</summary>
 
 <details>
 <summary>Details</summary>
@@ -820,9 +847,11 @@ Space Complexity: O(n)
 
 </details>
 
----
+</details>
 
-## Q15 : String to Integer (atoi)
+
+<details>
+<summary>Q15 : String to Integer (atoi)</summary>
 
 <details>
 <summary>Details</summary>
@@ -889,9 +918,11 @@ Space Complexity: O(1)
 
 </details>
 
----
+</details>
 
-## Q16 : Encode and Decode Strings
+
+<details>
+<summary>Q16 : Encode and Decode Strings</summary>
 
 <details>
 <summary>Details</summary>
@@ -950,9 +981,11 @@ Space Complexity: O(total characters)
 
 </details>
 
----
+</details>
 
-## Q17 : Palindromic Substrings
+
+<details>
+<summary>Q17 : Palindromic Substrings</summary>
 
 <details>
 <summary>Details</summary>
@@ -1013,9 +1046,11 @@ Space Complexity: O(1)
 
 </details>
 
----
+</details>
 
-## Q18 : Minimum Window Substring
+
+<details>
+<summary>Q18 : Minimum Window Substring</summary>
 
 <details>
 <summary>Details</summary>
@@ -1085,9 +1120,11 @@ Space Complexity: O(k)
 
 </details>
 
----
+</details>
 
-## Q19 : Regular Expression Matching
+
+<details>
+<summary>Q19 : Regular Expression Matching</summary>
 
 <details>
 <summary>Details</summary>
@@ -1149,9 +1186,11 @@ Space Complexity: O(n * m)
 
 </details>
 
----
+</details>
 
-## Q20 : Edit Distance
+
+<details>
+<summary>Q20 : Edit Distance</summary>
 
 <details>
 <summary>Details</summary>
@@ -1211,5 +1250,7 @@ class Solution:
 
 Time Complexity: O(m * n)
 Space Complexity: O(m * n)
+
+</details>
 
 </details>
