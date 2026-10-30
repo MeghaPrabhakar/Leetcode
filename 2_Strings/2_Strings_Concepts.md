@@ -9,4 +9,4 @@ Topic 6: String Parsing <br/>
 Topic 7: String Manipulation <br/>
 Topic 8: String DP <br/>
 
-![Python Strings Cheat Sheet – 8 Key Patterns](<2_Strings/Python Strings Cheat Sheet_ 8 Key Patterns.png>)
+![Python Strings Cheat Sheet](Python%20Strings%20Cheat%20Sheet_%208%20Key%20Patterns.png)
