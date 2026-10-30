@@ -1,14 +1,25 @@
 # Recordings
 
-## Q1 : Longest Common Prefix
+<details>
+<summary>Q1 : Longest Common Prefix</summary>
 
-### Details
+<details>
+<summary>Details</summary>
+
 #14,Easy,Topic1
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#14_Longest Common Prefix](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: strs = ["flower","flow","flight"]
 Output: "fl"
@@ -17,7 +28,11 @@ Example 2:
 Input: strs = ["dog","racecar","car"]
 Output: ""
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 class Solution:
     def longestCommonPrefix(self, strs):
@@ -32,21 +47,39 @@ class Solution:
         return prefix
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(n * m)
 Space Complexity: O(1)
 
----
+</details>
 
-## Q2 : Valid Palindrome
+</details>
 
-### Details
+
+<details>
+<summary>Q2 : Valid Palindrome</summary>
+
+<details>
+<summary>Details</summary>
+
 #125,Easy,Topic3
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#125_Valid Palindrome](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: s = "A man, a plan, a canal: Panama"
 Output: true
@@ -55,7 +88,11 @@ Example 2:
 Input: s = "race a car"
 Output: false
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 class Solution:
     def isPalindrome(self, s):
@@ -63,21 +100,39 @@ class Solution:
         return cleaned == cleaned[::-1]
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(n)
 Space Complexity: O(n)
 
----
+</details>
 
-## Q3 : Valid Anagram
+</details>
 
-### Details
+
+<details>
+<summary>Q3 : Valid Anagram</summary>
+
+<details>
+<summary>Details</summary>
+
 #242,Easy,Topic4
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#242_Valid Anagram](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: s = "anagram", t = "nagaram"
 Output: true
@@ -86,28 +141,50 @@ Example 2:
 Input: s = "rat", t = "car"
 Output: false
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 class Solution:
     def isAnagram(self, s, t):
         return sorted(s) == sorted(t)
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(n log n)
 Space Complexity: O(n)
 
----
+</details>
 
-## Q4 : First Unique Character in a String
+</details>
 
-### Details
+
+<details>
+<summary>Q4 : First Unique Character in a String</summary>
+
+<details>
+<summary>Details</summary>
+
 #387,Easy,Topic2
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#387_First Unique Character in a String](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: s = "leetcode"
 Output: 0
@@ -116,7 +193,11 @@ Example 2:
 Input: s = "loveleetcode"
 Output: 2
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 from collections import Counter
 
@@ -129,21 +210,39 @@ class Solution:
         return -1
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(n)
 Space Complexity: O(1)
 
----
+</details>
 
-## Q5 : Is Subsequence
+</details>
 
-### Details
+
+<details>
+<summary>Q5 : Is Subsequence</summary>
+
+<details>
+<summary>Details</summary>
+
 #392,Easy,Topic5
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#392_Is Subsequence](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: s = "abc", t = "ahbgdc"
 Output: true
@@ -152,7 +251,11 @@ Example 2:
 Input: s = "axc", t = "ahbgdc"
 Output: false
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 class Solution:
     def isSubsequence(self, s, t):
@@ -163,21 +266,39 @@ class Solution:
         return i == len(s)
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(len(t))
 Space Complexity: O(1)
 
----
+</details>
 
-## Q6 : Reverse String
+</details>
 
-### Details
+
+<details>
+<summary>Q6 : Reverse String</summary>
+
+<details>
+<summary>Details</summary>
+
 #344,Easy,Topic1
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#344_Reverse String](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: s = ["h","e","l","l","o"]
 Output: ["o","l","l","e","h"]
@@ -186,7 +307,11 @@ Example 2:
 Input: s = ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 class Solution:
     def reverseString(self, s):
@@ -197,21 +322,39 @@ class Solution:
             right -= 1
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(n)
 Space Complexity: O(1)
 
----
+</details>
 
-## Q7 : Reverse Words in a String III
+</details>
 
-### Details
+
+<details>
+<summary>Q7 : Reverse Words in a String III</summary>
+
+<details>
+<summary>Details</summary>
+
 #557,Easy,Topic1
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#557_Reverse Words in a String III](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: s = "Let's take LeetCode contest"
 Output: "s'teL ekat edoCteeL tsetnoc"
@@ -220,7 +363,11 @@ Example 2:
 Input: s = "God Ding"
 Output: "doG gniD"
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 class Solution:
     def reverseWords(self, s):
@@ -228,21 +375,39 @@ class Solution:
         return ' '.join(word[::-1] for word in words)
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(n)
 Space Complexity: O(n)
 
----
+</details>
 
-## Q8 : Group Anagrams
+</details>
 
-### Details
+
+<details>
+<summary>Q8 : Group Anagrams</summary>
+
+<details>
+<summary>Details</summary>
+
 #49,Med.,Topic4
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#49_Group Anagrams](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: strs = ["eat","tea","tan","ate","nat","bat"]
 Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
@@ -251,7 +416,11 @@ Example 2:
 Input: strs = [""]
 Output: [[""]]
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 from collections import defaultdict
 
@@ -263,21 +432,39 @@ class Solution:
         return list(groups.values())
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(n * k log k)
 Space Complexity: O(n * k)
 
----
+</details>
 
-## Q9 : String Compression
+</details>
 
-### Details
+
+<details>
+<summary>Q9 : String Compression</summary>
+
+<details>
+<summary>Details</summary>
+
 #443,Med.,Topic7
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#443_String Compression](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: chars = ["a","a","b","b","c","c","c"]
 Output: 6
@@ -286,7 +473,11 @@ Example 2:
 Input: chars = ["a"]
 Output: 1
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 class Solution:
     def compress(self, chars):
@@ -307,21 +498,39 @@ class Solution:
         return write
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(n)
 Space Complexity: O(1)
 
----
+</details>
 
-## Q10 : Longest Palindromic Substring
+</details>
 
-### Details
+
+<details>
+<summary>Q10 : Longest Palindromic Substring</summary>
+
+<details>
+<summary>Details</summary>
+
 #5,Med.,Topic3
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#5_Longest Palindromic Substring](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: s = "babad"
 Output: "bab"
@@ -330,7 +539,11 @@ Example 2:
 Input: s = "cbbd"
 Output: "bb"
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 class Solution:
     def longestPalindrome(self, s):
@@ -355,21 +568,39 @@ class Solution:
         return s[start:start + max_len]
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(n^2)
 Space Complexity: O(1)
 
----
+</details>
 
-## Q11 : Longest Substring Without Repeating Characters
+</details>
 
-### Details
+
+<details>
+<summary>Q11 : Longest Substring Without Repeating Characters</summary>
+
+<details>
+<summary>Details</summary>
+
 #3,Med.,Topic5
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#3_Longest Substring Without Repeating Characters](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: s = "abcabcbb"
 Output: 3
@@ -378,7 +609,11 @@ Example 2:
 Input: s = "bbbbb"
 Output: 1
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 class Solution:
     def lengthOfLongestSubstring(self, s):
@@ -395,21 +630,39 @@ class Solution:
         return longest
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(n)
 Space Complexity: O(min(n, 256))
 
----
+</details>
 
-## Q12 : Longest Repeating Character Replacement
+</details>
 
-### Details
+
+<details>
+<summary>Q12 : Longest Repeating Character Replacement</summary>
+
+<details>
+<summary>Details</summary>
+
 #424,Med.,Topic5
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#424_Longest Repeating Character Replacement](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: s = "ABAB", k = 2
 Output: 4
@@ -418,7 +671,11 @@ Example 2:
 Input: s = "AABABBA", k = 1
 Output: 4
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 from collections import defaultdict
 
@@ -442,21 +699,39 @@ class Solution:
         return longest
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(n)
 Space Complexity: O(1)
 
----
+</details>
 
-## Q13 : Find All Anagrams in a String
+</details>
 
-### Details
+
+<details>
+<summary>Q13 : Find All Anagrams in a String</summary>
+
+<details>
+<summary>Details</summary>
+
 #438,Med.,Topic4
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#438_Find All Anagrams in a String](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: s = "cbaebabacd", p = "abc"
 Output: [0,6]
@@ -465,7 +740,11 @@ Example 2:
 Input: s = "abab", p = "ab"
 Output: [0,1,2]
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 from collections import Counter
 
@@ -489,21 +768,39 @@ class Solution:
         return result
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(n)
 Space Complexity: O(k)
 
----
+</details>
 
-## Q14 : Decode String
+</details>
 
-### Details
+
+<details>
+<summary>Q14 : Decode String</summary>
+
+<details>
+<summary>Details</summary>
+
 #394,Med.,Topic6
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#394_Decode String](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: s = "3[a]2[bc]"
 Output: "aaabcbc"
@@ -512,7 +809,11 @@ Example 2:
 Input: s = "3[a2[c]]"
 Output: "accaccacc"
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 class Solution:
     def decodeString(self, s):
@@ -536,21 +837,39 @@ class Solution:
         return current_string
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(n)
 Space Complexity: O(n)
 
----
+</details>
 
-## Q15 : String to Integer (atoi)
+</details>
 
-### Details
+
+<details>
+<summary>Q15 : String to Integer (atoi)</summary>
+
+<details>
+<summary>Details</summary>
+
 #8,Med.,Topic6
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#8_String to Integer (atoi)](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: s = "42"
 Output: 42
@@ -559,7 +878,11 @@ Example 2:
 Input: s = "   -42"
 Output: -42
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 class Solution:
     def myAtoi(self, s):
@@ -585,21 +908,39 @@ class Solution:
         return sign * num
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(n)
 Space Complexity: O(1)
 
----
+</details>
 
-## Q16 : Encode and Decode Strings
+</details>
 
-### Details
+
+<details>
+<summary>Q16 : Encode and Decode Strings</summary>
+
+<details>
+<summary>Details</summary>
+
 #271,Med.,Topic6
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#271_Encode and Decode Strings](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: words = ["lint","code","love","you"]
 Output: "4#lint4#code4#love3#you"
@@ -608,7 +949,11 @@ Example 2:
 Input: words = ["we","say",":","yes"]
 Output: "2#we3#say1#:3#yes"
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 class Codec:
     def encode(self, strs):
@@ -626,21 +971,39 @@ class Codec:
         return res
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(total characters)
 Space Complexity: O(total characters)
 
----
+</details>
 
-## Q17 : Palindromic Substrings
+</details>
 
-### Details
+
+<details>
+<summary>Q17 : Palindromic Substrings</summary>
+
+<details>
+<summary>Details</summary>
+
 #647,Med.,Topic3
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#647_Palindromic Substrings](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: s = "abc"
 Output: 3
@@ -649,7 +1012,11 @@ Example 2:
 Input: s = "aaa"
 Output: 6
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 class Solution:
     def countSubstrings(self, s):
@@ -669,21 +1036,39 @@ class Solution:
         return count
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(n^2)
 Space Complexity: O(1)
 
----
+</details>
 
-## Q18 : Minimum Window Substring
+</details>
 
-### Details
+
+<details>
+<summary>Q18 : Minimum Window Substring</summary>
+
+<details>
+<summary>Details</summary>
+
 #76,Hard,Topic5
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#76_Minimum Window Substring](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: s = "ADOBECODEBANC", t = "ABC"
 Output: "BANC"
@@ -692,7 +1077,11 @@ Example 2:
 Input: s = "a", t = "aa"
 Output: ""
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 from collections import Counter
 
@@ -721,21 +1110,39 @@ class Solution:
         return s[best[0]:best[0] + best[1]]
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(n)
 Space Complexity: O(k)
 
----
+</details>
 
-## Q19 : Regular Expression Matching
+</details>
 
-### Details
+
+<details>
+<summary>Q19 : Regular Expression Matching</summary>
+
+<details>
+<summary>Details</summary>
+
 #10,Hard,Topic8
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#10_Regular Expression Matching](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: s = "aa", p = "a"
 Output: false
@@ -744,7 +1151,11 @@ Example 2:
 Input: s = "aa", p = "a*"
 Output: true
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 class Solution:
     def isMatch(self, s, p):
@@ -765,21 +1176,39 @@ class Solution:
         return dp[len(s)][len(p)]
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(n * m)
 Space Complexity: O(n * m)
 
----
+</details>
 
-## Q20 : Edit Distance
+</details>
 
-### Details
+
+<details>
+<summary>Q20 : Edit Distance</summary>
+
+<details>
+<summary>Details</summary>
+
 #72,Med.,Topic8
 
-### recording
+</details>
+
+<details>
+<summary>recording</summary>
+
 [#72_Edit Distance](#)
 
-### Sample Input & Output
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
 Example 1:
 Input: word1 = "horse", word2 = "ros"
 Output: 3
@@ -788,7 +1217,11 @@ Example 2:
 Input: word1 = "intention", word2 = "execution"
 Output: 5
 
-### Code
+</details>
+
+<details>
+<summary>Code</summary>
+
 ```python
 class Solution:
     def minDistance(self, word1, word2):
@@ -810,6 +1243,14 @@ class Solution:
         return dp[m][n]
 ```
 
-### Space & Time Complexity
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
 Time Complexity: O(m * n)
 Space Complexity: O(m * n)
+
+</details>
+
+</details>
