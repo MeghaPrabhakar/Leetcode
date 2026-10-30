@@ -4,9 +4,9 @@
 Details : #14,Easy,Topic1
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#14_Longest Common Prefix
 
 </details>
 
@@ -56,9 +56,9 @@ Space Complexity: O(1)
 Details : #125,Easy,Topic3
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#125_Valid Palindrome
 
 </details>
 
@@ -101,9 +101,9 @@ Space Complexity: O(n)
 Details : #242,Easy,Topic4
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#242_Valid Anagram
 
 </details>
 
@@ -145,9 +145,9 @@ Space Complexity: O(n)
 Details : #387,Easy,Topic2
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#387_First Unique Character in a String
 
 </details>
 
@@ -195,9 +195,9 @@ Space Complexity: O(1)
 Details : #392,Easy,Topic5
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#392_Is Subsequence
 
 </details>
 
@@ -243,9 +243,9 @@ Space Complexity: O(1)
 Details : #344,Easy,Topic1
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#344_Reverse String
 
 </details>
 
@@ -291,9 +291,9 @@ Space Complexity: O(1)
 Details : #557,Easy,Topic1
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#557_Reverse Words in a String III
 
 </details>
 
@@ -336,9 +336,9 @@ Space Complexity: O(n)
 Details : #49,Med.,Topic4
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#49_Group Anagrams
 
 </details>
 
@@ -385,9 +385,9 @@ Space Complexity: O(n * k)
 Details : #443,Med.,Topic7
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#443_String Compression
 
 </details>
 
@@ -443,9 +443,9 @@ Space Complexity: O(1)
 Details : #5,Med.,Topic3
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#5_Longest Palindromic Substring
 
 </details>
 
@@ -505,9 +505,9 @@ Space Complexity: O(1)
 Details : #3,Med.,Topic5
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#3_Longest Substring Without Repeating Characters
 
 </details>
 
@@ -559,9 +559,9 @@ Space Complexity: O(min(n, 256))
 Details : #424,Med.,Topic5
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#424_Longest Repeating Character Replacement
 
 </details>
 
@@ -620,9 +620,9 @@ Space Complexity: O(1)
 Details : #438,Med.,Topic4
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#438_Find All Anagrams in a String
 
 </details>
 
@@ -681,9 +681,9 @@ Space Complexity: O(k)
 Details : #394,Med.,Topic6
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#394_Decode String
 
 </details>
 
@@ -742,9 +742,9 @@ Space Complexity: O(n)
 Details : #8,Med.,Topic6
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#8_String to Integer (atoi)
 
 </details>
 
@@ -805,9 +805,9 @@ Space Complexity: O(1)
 Details : #271,Med.,Topic6
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#271_Encode and Decode Strings
 
 </details>
 
@@ -860,9 +860,9 @@ Space Complexity: O(total characters)
 Details : #647,Med.,Topic3
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#647_Palindromic Substrings
 
 </details>
 
@@ -917,9 +917,9 @@ Space Complexity: O(1)
 Details : #76,Hard,Topic5
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#76_Minimum Window Substring
 
 </details>
 
@@ -983,9 +983,9 @@ Space Complexity: O(k)
 Details : #10,Hard,Topic8
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#10_Regular Expression Matching
 
 </details>
 
@@ -1041,9 +1041,9 @@ Space Complexity: O(n * m)
 Details : #72,Med.,Topic8
 
 <details>
-<summary>recording_problem_name</summary>
+<summary>recording</summary>
 
-[Problem recording placeholder](#)
+#72_Edit Distance
 
 </details>
 
