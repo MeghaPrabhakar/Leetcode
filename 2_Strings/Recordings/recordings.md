@@ -1,6 +1,6 @@
 # Recordings
 
-## Problem : 14. Longest Common Substring
+## Q1 : (LC14)Longest Common Substring
 
 <details>
 <summary>recording_problem_name</summary>
@@ -52,7 +52,7 @@ Space Complexity: O(1)
 
 ---
 
-## Problem : 1. Two Sum
+## Q2 : (LC1)Two Sum
 
 <details>
 <summary>recording_problem_name</summary>
@@ -101,7 +101,7 @@ Space Complexity: O(n)
 
 ---
 
-## Problem : 3. Longest Substring Without Repeating Characters
+## Q3 : (LC3)Longest Substring Without Repeating Characters
 
 <details>
 <summary>recording_problem_name</summary>
@@ -154,7 +154,7 @@ Space Complexity: O(min(n, 256))
 
 ---
 
-## Problem : 5. Longest Palindromic Substring
+## Q4 : (LC5)Longest Palindromic Substring
 
 <details>
 <summary>recording_problem_name</summary>
@@ -216,7 +216,7 @@ Space Complexity: O(1)
 
 ---
 
-## Problem : 6. Zigzag Conversion
+## Q5 : (LC6)Zigzag Conversion
 
 <details>
 <summary>recording_problem_name</summary>
@@ -272,7 +272,7 @@ Space Complexity: O(n)
 
 ---
 
-## Problem : 8. String to Integer (atoi)
+## Q6 : (LC8)String to Integer (atoi)
 
 <details>
 <summary>recording_problem_name</summary>
@@ -335,7 +335,7 @@ Space Complexity: O(1)
 
 ---
 
-## Problem : 9. Palindrome Number
+## Q7 : (LC9)Palindrome Number
 
 <details>
 <summary>recording_problem_name</summary>
@@ -387,7 +387,7 @@ Space Complexity: O(1)
 
 ---
 
-## Problem : 12. Integer to Roman
+## Q8 : (LC12)Integer to Roman
 
 <details>
 <summary>recording_problem_name</summary>
@@ -439,7 +439,7 @@ Space Complexity: O(1)
 
 ---
 
-## Problem : 13. Roman to Integer
+## Q9 : (LC13)Roman to Integer
 
 <details>
 <summary>recording_problem_name</summary>
@@ -494,7 +494,7 @@ Space Complexity: O(1)
 
 ---
 
-## Problem : 14. Longest Common Prefix
+## Q10 : (LC14)Longest Common Prefix
 
 <details>
 <summary>recording_problem_name</summary>
@@ -546,7 +546,7 @@ Space Complexity: O(1)
 
 ---
 
-## Problem : 17. Letter Combinations of a Phone Number
+## Q11 : (LC17)Letter Combinations of a Phone Number
 
 <details>
 <summary>recording_problem_name</summary>
@@ -602,7 +602,7 @@ Space Complexity: O(4^n)
 
 ---
 
-## Problem : 20. Valid Parentheses
+## Q12 : (LC20)Valid Parentheses
 
 <details>
 <summary>recording_problem_name</summary>
@@ -654,7 +654,7 @@ Space Complexity: O(n)
 
 ---
 
-## Problem : 21. Merge Two Sorted Lists
+## Q13 : (LC21)Merge Two Sorted Lists
 
 <details>
 <summary>recording_problem_name</summary>
@@ -710,7 +710,7 @@ Space Complexity: O(1)
 
 ---
 
-## Problem : 28. Find the Index of the First Occurrence in a String
+## Q14 : (LC28)Find the Index of the First Occurrence in a String
 
 <details>
 <summary>recording_problem_name</summary>
@@ -761,7 +761,7 @@ Space Complexity: O(1)
 
 ---
 
-## Problem : 38. Count and Say
+## Q15 : (LC38)Count and Say
 
 <details>
 <summary>recording_problem_name</summary>
@@ -816,7 +816,7 @@ Space Complexity: O(length)
 
 ---
 
-## Problem : 49. Group Anagrams
+## Q16 : (LC49)Group Anagrams
 
 <details>
 <summary>recording_problem_name</summary>
@@ -863,7 +863,7 @@ Space Complexity: O(n * k)
 
 ---
 
-## Problem : 76. Minimum Window Substring
+## Q17 : (LC76)Minimum Window Substring
 
 <details>
 <summary>recording_problem_name</summary>
@@ -928,7 +928,7 @@ Space Complexity: O(k)
 
 ---
 
-## Problem : 125. Valid Palindrome
+## Q18 : (LC125)Valid Palindrome
 
 <details>
 <summary>recording_problem_name</summary>
@@ -972,7 +972,7 @@ Space Complexity: O(n)
 
 ---
 
-## Problem : 242. Valid Anagram
+## Q19 : (LC242)Valid Anagram
 
 <details>
 <summary>recording_problem_name</summary>
@@ -1015,7 +1015,7 @@ Space Complexity: O(n)
 
 ---
 
-## Problem : 344. Reverse String
+## Q20 : (LC344)Reverse String
 
 <details>
 <summary>recording_problem_name</summary>
@@ -1057,990 +1057,5 @@ class Solution:
 
 Time Complexity: O(n)
 Space Complexity: O(1)
-
-</details>
-
----
-
-## Problem : 387. First Unique Character in a String
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: s = "leetcode"
-Output: 0
-
-Example 2:
-Input: s = "loveleetcode"
-Output: 2
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def firstUniqChar(self, s):
-        counts = {}
-        for ch in s:
-            counts[ch] = counts.get(ch, 0) + 1
-
-        for i, ch in enumerate(s):
-            if counts[ch] == 1:
-                return i
-
-        return -1
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n)
-Space Complexity: O(1)
-
-</details>
-
----
-
-## Problem : 409. Longest Palindrome
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: s = "abccccdd"
-Output: 7
-
-Example 2:
-Input: s = "a"
-Output: 1
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-from collections import Counter
-
-class Solution:
-    def longestPalindrome(self, s):
-        counts = Counter(s)
-        length = 0
-        odd_found = False
-
-        for count in counts.values():
-            length += count // 2 * 2
-            if count % 2 == 1:
-                odd_found = True
-
-        return length + 1 if odd_found else length
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n)
-Space Complexity: O(1)
-
-</details>
-
----
-
-## Problem : 451. Sort Characters By Frequency
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: s = "tree"
-Output: "eert"
-
-Example 2:
-Input: s = "cccaaa"
-Output: "aaaccc"
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-from collections import Counter
-
-class Solution:
-    def frequencySort(self, s):
-        counts = Counter(s)
-        sorted_chars = sorted(counts.items(), key=lambda x: x[1], reverse=True)
-        return ''.join(ch * count for ch, count in sorted_chars)
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n log n)
-Space Complexity: O(n)
-
-</details>
-
----
-
-## Problem : 657. Robot Return to Origin
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: moves = "UD"
-Output: true
-
-Example 2:
-Input: moves = "LL"
-Output: false
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def judgeCircle(self, moves):
-        x = y = 0
-        for move in moves:
-            if move == 'U':
-                y += 1
-            elif move == 'D':
-                y -= 1
-            elif move == 'L':
-                x -= 1
-            elif move == 'R':
-                x += 1
-        return x == 0 and y == 0
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n)
-Space Complexity: O(1)
-
-</details>
-
----
-
-## Problem : 819. Most Common Word
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: paragraph = "Bob hit a ball, the hit BALL flew far after it was hit.", banned = ["hit"]
-Output: "ball"
-
-Example 2:
-Input: paragraph = "a.", banned = []
-Output: "a"
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-import re
-from collections import Counter
-
-class Solution:
-    def mostCommonWord(self, paragraph, banned):
-        words = [word.lower() for word in re.findall(r"[a-z']+", paragraph)]
-        counts = Counter(word for word in words if word not in banned)
-        return counts.most_common(1)[0][0]
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n)
-Space Complexity: O(n)
-
-</details>
-
----
-
-## Problem : 929. Unique Email Addresses
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
-Output: 2
-
-Example 2:
-Input: emails = ["a@leetcode.com","b@leetcode.com","c@leetcode.com"]
-Output: 3
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def numUniqueEmails(self, emails):
-        seen = set()
-        for email in emails:
-            local, domain = email.split('@')
-            local = local.split('+')[0].replace('.', '')
-            seen.add((local, domain))
-        return len(seen)
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n)
-Space Complexity: O(n)
-
-</details>
-
----
-
-## Problem : 1002. Find Common Characters
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: words = ["bella","label","roller"]
-Output: ["e","l","l"]
-
-Example 2:
-Input: words = ["cool","lock","cook"]
-Output: ["c","o"]
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-from collections import Counter
-
-class Solution:
-    def commonChars(self, words):
-        common = Counter(words[0])
-        for word in words[1:]:
-            common &= Counter(word)
-
-        result = []
-        for ch, count in common.items():
-            result.extend([ch] * count)
-        return result
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n * m)
-Space Complexity: O(m)
-
-</details>
-
----
-
-## Problem : 1047. Remove All Adjacent Duplicates In String
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: s = "abbaca"
-Output: "ca"
-
-Example 2:
-Input: s = "azxxzy"
-Output: "ay"
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def removeDuplicates(self, s):
-        stack = []
-        for ch in s:
-            if stack and stack[-1] == ch:
-                stack.pop()
-            else:
-                stack.append(ch)
-        return ''.join(stack)
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n)
-Space Complexity: O(n)
-
-</details>
-
----
-
-## Problem : 1239. Maximum Length of a Concatenated String with Unique Characters
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: arr = ["un","iq","ue"]
-Output: 4
-
-Example 2:
-Input: arr = ["cha","r","act","ers"]
-Output: 6
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def maxLength(self, arr):
-        dp = [set()]
-        for s in arr:
-            if len(set(s)) < len(s):
-                continue
-            s_set = set(s)
-            for prev in dp[:]:
-                if s_set & prev:
-                    continue
-                dp.append(prev | s_set)
-        return max(len(s) for s in dp)
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(2^n)
-Space Complexity: O(2^n)
-
-</details>
-
----
-
-## Problem : 1392. Longest Happy Prefix
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: s = "level"
-Output: "l"
-
-Example 2:
-Input: s = "ababab"
-Output: "abab"
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def longestPrefix(self, s):
-        prefix = [0] * len(s)
-        j = 0
-        for i in range(1, len(s)):
-            while j > 0 and s[i] != s[j]:
-                j = prefix[j - 1]
-            if s[i] == s[j]:
-                j += 1
-            prefix[i] = j
-        return s[:prefix[-1]]
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n)
-Space Complexity: O(n)
-
-</details>
-
----
-
-## Problem : 1512. Number of Good Pairs
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: nums = [1,2,3,1,1,3]
-Output: 4
-
-Example 2:
-Input: nums = [1,1,1,1]
-Output: 6
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-from collections import Counter
-
-class Solution:
-    def numIdenticalPairs(self, nums):
-        counts = Counter(nums)
-        total = 0
-        for count in counts.values():
-            total += count * (count - 1) // 2
-        return total
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n)
-Space Complexity: O(n)
-
-</details>
-
----
-
-## Problem : 1662. Check If Two String Arrays are Equivalent
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: word1 = ["ab", "c"], word2 = ["a", "bc"]
-Output: true
-
-Example 2:
-Input: word1 = ["a", "cb"], word2 = ["ab", "c"]
-Output: false
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def arrayStringsAreEqual(self, word1, word2):
-        return ''.join(word1) == ''.join(word2)
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n)
-Space Complexity: O(n)
-
-</details>
-
----
-
-## Problem : 1678. Goal Parser Interpretation
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: command = "G()(al)"
-Output: "Goal"
-
-Example 2:
-Input: command = "(al)G(al)()"
-Output: "alGal"
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def interpret(self, command):
-        result = []
-        i = 0
-        while i < len(command):
-            if command[i] == 'G':
-                result.append('G')
-                i += 1
-            elif command[i:i+2] == '()':
-                result.append('o')
-                i += 2
-            else:
-                result.append('al')
-                i += 4
-        return ''.join(result)
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n)
-Space Complexity: O(n)
-
-</details>
-
----
-
-## Problem : 2114. Maximum Number of Words Found in Sentences
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"]
-Output: 6
-
-Example 2:
-Input: sentences = ["please wait", "continue to fight", "continue to win"]
-Output: 3
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def mostWordsFound(self, sentences):
-        return max(len(sentence.split()) for sentence in sentences)
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n)
-Space Complexity: O(1)
-
-</details>
-
----
-
-## Problem : 2224. Minimum Number of Operations to Convert Time
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: current = "09:41", correct = "10:00"
-Output: 2
-
-Example 2:
-Input: current = "00:00", correct = "00:00"
-Output: 0
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def convertTime(self, current, correct):
-        start = int(current[:2]) * 60 + int(current[3:])
-        end = int(correct[:2]) * 60 + int(correct[3:])
-        diff = end - start
-        ops = [60, 15, 5, 1]
-        count = 0
-
-        for op in ops:
-            count += diff // op
-            diff %= op
-        return count
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(1)
-Space Complexity: O(1)
-
-</details>
-
----
-
-## Problem : 2351. First Letter to Appear Twice
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: s = "abccbaacz"
-Output: "c"
-
-Example 2:
-Input: s = "abcdd"
-Output: "d"
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def repeatedCharacter(self, s):
-        seen = set()
-        for ch in s:
-            if ch in seen:
-                return ch
-            seen.add(ch)
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n)
-Space Complexity: O(1)
-
-</details>
-
----
-
-## Problem : 2710. Remove Trailing Zeros From a String
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: s = "51230100"
-Output: "512301"
-
-Example 2:
-Input: s = "123"
-Output: "123"
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def removeTrailingZeros(self, num):
-        while num and num[-1] == '0':
-            num = num[:-1]
-        return num
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n)
-Space Complexity: O(1)
-
-</details>
-
----
-
-## Problem : 2744. Find Maximum Number of String Pairs
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: words = ["ab","ba","abc","cba"]
-Output: 2
-
-Example 2:
-Input: words = ["ll","lb","bb","lb"]
-Output: 1
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def maximumNumberOfStringPairs(self, words):
-        seen = set()
-        pairs = 0
-        for word in words:
-            rev = word[::-1]
-            if rev in seen:
-                pairs += 1
-            seen.add(word)
-        return pairs
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n)
-Space Complexity: O(n)
-
-</details>
-
----
-
-## Problem : 2942. Find Words Containing Character
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: words = ["leet","code"], x = "e"
-Output: [0,1]
-
-Example 2:
-Input: words = ["abc","bcd","aaaa","cbc"], x = "a"
-Output: [0,2]
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def findWordsContaining(self, words, x):
-        result = []
-        for i, word in enumerate(words):
-            if x in word:
-                result.append(i)
-        return result
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n * m)
-Space Complexity: O(k)
-
-</details>
-
----
-
-## Problem : 3079. Find the Sum of Encrypted Integers
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: nums = [1,2,3]
-Output: 6
-
-Example 2:
-Input: nums = [10,21,12]
-Output: 18
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def sumOfEncryptedInt(self, nums):
-        result = 0
-        for num in nums:
-            digits = sorted(str(num))
-            max_digit = digits[-1]
-            encrypted = int(max_digit * len(digits))
-            result += encrypted
-        return result
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n * d)
-Space Complexity: O(d)
 
 </details>
