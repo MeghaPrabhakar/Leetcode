@@ -6,7 +6,7 @@ Details : #14,Easy,Topic1
 <details>
 <summary>recording</summary>
 
-#14_Longest Common Prefix
+[#14_Longest Common Prefix](#)
 
 </details>
 
@@ -58,7 +58,7 @@ Details : #125,Easy,Topic3
 <details>
 <summary>recording</summary>
 
-#125_Valid Palindrome
+[#125_Valid Palindrome](#)
 
 </details>
 
@@ -103,7 +103,7 @@ Details : #242,Easy,Topic4
 <details>
 <summary>recording</summary>
 
-#242_Valid Anagram
+[#242_Valid Anagram](#)
 
 </details>
 
@@ -147,7 +147,7 @@ Details : #387,Easy,Topic2
 <details>
 <summary>recording</summary>
 
-#387_First Unique Character in a String
+[#387_First Unique Character in a String](#)
 
 </details>
 
@@ -197,7 +197,7 @@ Details : #392,Easy,Topic5
 <details>
 <summary>recording</summary>
 
-#392_Is Subsequence
+[#392_Is Subsequence](#)
 
 </details>
 
@@ -245,7 +245,7 @@ Details : #344,Easy,Topic1
 <details>
 <summary>recording</summary>
 
-#344_Reverse String
+[#344_Reverse String](#)
 
 </details>
 
@@ -293,7 +293,7 @@ Details : #557,Easy,Topic1
 <details>
 <summary>recording</summary>
 
-#557_Reverse Words in a String III
+[#557_Reverse Words in a String III](#)
 
 </details>
 
@@ -338,7 +338,7 @@ Details : #49,Med.,Topic4
 <details>
 <summary>recording</summary>
 
-#49_Group Anagrams
+[#49_Group Anagrams](#)
 
 </details>
 
@@ -387,7 +387,7 @@ Details : #443,Med.,Topic7
 <details>
 <summary>recording</summary>
 
-#443_String Compression
+[#443_String Compression](#)
 
 </details>
 
@@ -445,7 +445,7 @@ Details : #5,Med.,Topic3
 <details>
 <summary>recording</summary>
 
-#5_Longest Palindromic Substring
+[#5_Longest Palindromic Substring](#)
 
 </details>
 
@@ -507,7 +507,7 @@ Details : #3,Med.,Topic5
 <details>
 <summary>recording</summary>
 
-#3_Longest Substring Without Repeating Characters
+[#3_Longest Substring Without Repeating Characters](#)
 
 </details>
 
@@ -561,7 +561,7 @@ Details : #424,Med.,Topic5
 <details>
 <summary>recording</summary>
 
-#424_Longest Repeating Character Replacement
+[#424_Longest Repeating Character Replacement](#)
 
 </details>
 
@@ -622,7 +622,7 @@ Details : #438,Med.,Topic4
 <details>
 <summary>recording</summary>
 
-#438_Find All Anagrams in a String
+[#438_Find All Anagrams in a String](#)
 
 </details>
 
@@ -683,7 +683,7 @@ Details : #394,Med.,Topic6
 <details>
 <summary>recording</summary>
 
-#394_Decode String
+[#394_Decode String](#)
 
 </details>
 
@@ -744,7 +744,7 @@ Details : #8,Med.,Topic6
 <details>
 <summary>recording</summary>
 
-#8_String to Integer (atoi)
+[#8_String to Integer (atoi)](#)
 
 </details>
 
@@ -807,7 +807,7 @@ Details : #271,Med.,Topic6
 <details>
 <summary>recording</summary>
 
-#271_Encode and Decode Strings
+[#271_Encode and Decode Strings](#)
 
 </details>
 
@@ -862,7 +862,7 @@ Details : #647,Med.,Topic3
 <details>
 <summary>recording</summary>
 
-#647_Palindromic Substrings
+[#647_Palindromic Substrings](#)
 
 </details>
 
@@ -919,7 +919,7 @@ Details : #76,Hard,Topic5
 <details>
 <summary>recording</summary>
 
-#76_Minimum Window Substring
+[#76_Minimum Window Substring](#)
 
 </details>
 
@@ -985,7 +985,7 @@ Details : #10,Hard,Topic8
 <details>
 <summary>recording</summary>
 
-#10_Regular Expression Matching
+[#10_Regular Expression Matching](#)
 
 </details>
 
@@ -1043,7 +1043,7 @@ Details : #72,Med.,Topic8
 <details>
 <summary>recording</summary>
 
-#72_Edit Distance
+[#72_Edit Distance](#)
 
 </details>
 
