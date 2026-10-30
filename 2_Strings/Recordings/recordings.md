@@ -35,16 +35,20 @@ Output: ""
 
 ```python
 class Solution:
-    def longestCommonPrefix(self, strs):
-        if not strs:
-            return ""
-        prefix = strs[0]
-        for s in strs[1:]:
-            while not s.startswith(prefix):
-                prefix = prefix[:-1]
-                if not prefix:
-                    return ""
-        return prefix
+    def longestCommonPrefix(self, strs: list[str]) -> str:
+        max_len_psbl = len(min(strs, key=len))
+        i=0
+        possibilities=[]
+        while i < len(strs):
+            possibilities.append((strs[i][0:max_len_psbl]))
+            i+=1
+        print(possibilities)
+        for i in range(len(possibilities)-1):
+            while(possibilities[i][0:max_len_psbl]!=possibilities[i+1][0:max_len_psbl]):
+                print(possibilities[i],possibilities[i+1])
+                max_len_psbl-=1
+                print(max_len_psbl)
+        return possibilities[0][0:max_len_psbl]
 ```
 
 </details>
