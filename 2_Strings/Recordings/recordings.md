@@ -1,11 +1,11 @@
 # Recordings
 
-## Q1 : (LC14)Longest Common Substring
+## Q1 : 🟩 Longest Common Prefix — (Topic 1) #14
 
 <details>
 <summary>recording_problem_name</summary>
 
-[14. Longest Common Substring](https://raw.githubusercontent.com/MeghaPrabhakar/Leetcode/main/2_Strings/Recordings/14.%20Longest%20Common%20Substring.mp3)
+[Problem recording placeholder](#)
 
 </details>
 
@@ -30,7 +30,6 @@ class Solution:
     def longestCommonPrefix(self, strs):
         if not strs:
             return ""
-
         prefix = strs[0]
         for s in strs[1:]:
             while not s.startswith(prefix):
@@ -52,7 +51,7 @@ Space Complexity: O(1)
 
 ---
 
-## Q2 : (LC1)Two Sum
+## Q2 : 🟩 Valid Palindrome — (Topic 3) #125
 
 <details>
 <summary>recording_problem_name</summary>
@@ -65,12 +64,12 @@ Space Complexity: O(1)
 <summary>Sample Input & Output</summary>
 
 Example 1:
-Input: nums = [2,7,11,15], target = 9
-Output: [0,1]
+Input: s = "A man, a plan, a canal: Panama"
+Output: true
 
 Example 2:
-Input: nums = [3,2,4], target = 6
-Output: [1,2]
+Input: s = "race a car"
+Output: false
 
 </details>
 
@@ -79,14 +78,9 @@ Output: [1,2]
 
 ```python
 class Solution:
-    def twoSum(self, nums, target):
-        seen = {}
-        for i, num in enumerate(nums):
-            remaining = target - num
-            if remaining in seen:
-                return [seen[remaining], i]
-            seen[num] = i
-        return []
+    def isPalindrome(self, s):
+        cleaned = ''.join(ch.lower() for ch in s if ch.isalnum())
+        return cleaned == cleaned[::-1]
 ```
 
 </details>
@@ -101,7 +95,403 @@ Space Complexity: O(n)
 
 ---
 
-## Q3 : (LC3)Longest Substring Without Repeating Characters
+## Q3 : 🟩 Valid Anagram — (Topic 4) #242
+
+<details>
+<summary>recording_problem_name</summary>
+
+[Problem recording placeholder](#)
+
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
+Example 1:
+Input: s = "anagram", t = "nagaram"
+Output: true
+
+Example 2:
+Input: s = "rat", t = "car"
+Output: false
+
+</details>
+
+<details>
+<summary>Code</summary>
+
+```python
+class Solution:
+    def isAnagram(self, s, t):
+        return sorted(s) == sorted(t)
+```
+
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
+Time Complexity: O(n log n)
+Space Complexity: O(n)
+
+</details>
+
+---
+
+## Q4 : 🟩 First Unique Character in a String — (Topic 2) #387
+
+<details>
+<summary>recording_problem_name</summary>
+
+[Problem recording placeholder](#)
+
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
+Example 1:
+Input: s = "leetcode"
+Output: 0
+
+Example 2:
+Input: s = "loveleetcode"
+Output: 2
+
+</details>
+
+<details>
+<summary>Code</summary>
+
+```python
+from collections import Counter
+
+class Solution:
+    def firstUniqChar(self, s):
+        counts = Counter(s)
+        for i, ch in enumerate(s):
+            if counts[ch] == 1:
+                return i
+        return -1
+```
+
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+</details>
+
+---
+
+## Q5 : 🟩 Is Subsequence — (Topic 5) #392
+
+<details>
+<summary>recording_problem_name</summary>
+
+[Problem recording placeholder](#)
+
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
+Example 1:
+Input: s = "abc", t = "ahbgdc"
+Output: true
+
+Example 2:
+Input: s = "axc", t = "ahbgdc"
+Output: false
+
+</details>
+
+<details>
+<summary>Code</summary>
+
+```python
+class Solution:
+    def isSubsequence(self, s, t):
+        i = 0
+        for ch in t:
+            if i < len(s) and ch == s[i]:
+                i += 1
+        return i == len(s)
+```
+
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
+Time Complexity: O(len(t))
+Space Complexity: O(1)
+
+</details>
+
+---
+
+## Q6 : 🟩 Reverse String — (Topic 1) #344
+
+<details>
+<summary>recording_problem_name</summary>
+
+[Problem recording placeholder](#)
+
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
+Example 1:
+Input: s = ["h","e","l","l","o"]
+Output: ["o","l","l","e","h"]
+
+Example 2:
+Input: s = ["H","a","n","n","a","h"]
+Output: ["h","a","n","n","a","H"]
+
+</details>
+
+<details>
+<summary>Code</summary>
+
+```python
+class Solution:
+    def reverseString(self, s):
+        left, right = 0, len(s) - 1
+        while left < right:
+            s[left], s[right] = s[right], s[left]
+            left += 1
+            right -= 1
+```
+
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+</details>
+
+---
+
+## Q7 : 🟩 Reverse Words in a String III — (Topic 1) #557
+
+<details>
+<summary>recording_problem_name</summary>
+
+[Problem recording placeholder](#)
+
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
+Example 1:
+Input: s = "Let's take LeetCode contest"
+Output: "s'teL ekat edoCteeL tsetnoc"
+
+Example 2:
+Input: s = "God Ding"
+Output: "doG gniD"
+
+</details>
+
+<details>
+<summary>Code</summary>
+
+```python
+class Solution:
+    def reverseWords(self, s):
+        words = s.split()
+        return ' '.join(word[::-1] for word in words)
+```
+
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+</details>
+
+---
+
+## Q8 : 🟨 Group Anagrams — (Topic 4) #49
+
+<details>
+<summary>recording_problem_name</summary>
+
+[Problem recording placeholder](#)
+
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
+Example 1:
+Input: strs = ["eat","tea","tan","ate","nat","bat"]
+Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+
+Example 2:
+Input: strs = [""]
+Output: [[""]]
+
+</details>
+
+<details>
+<summary>Code</summary>
+
+```python
+from collections import defaultdict
+
+class Solution:
+    def groupAnagrams(self, strs):
+        groups = defaultdict(list)
+        for word in strs:
+            groups[''.join(sorted(word))].append(word)
+        return list(groups.values())
+```
+
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
+Time Complexity: O(n * k log k)
+Space Complexity: O(n * k)
+
+</details>
+
+---
+
+## Q9 : 🟨 String Compression — (Topic 7) #443
+
+<details>
+<summary>recording_problem_name</summary>
+
+[Problem recording placeholder](#)
+
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
+Example 1:
+Input: chars = ["a","a","b","b","c","c","c"]
+Output: 6
+
+Example 2:
+Input: chars = ["a"]
+Output: 1
+
+</details>
+
+<details>
+<summary>Code</summary>
+
+```python
+class Solution:
+    def compress(self, chars):
+        write = 0
+        i = 0
+        while i < len(chars):
+            count = 1
+            while i + 1 < len(chars) and chars[i] == chars[i + 1]:
+                i += 1
+                count += 1
+            chars[write] = chars[i]
+            write += 1
+            if count > 1:
+                for digit in str(count):
+                    chars[write] = digit
+                    write += 1
+            i += 1
+        return write
+```
+
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+</details>
+
+---
+
+## Q10 : 🟨 Longest Palindromic Substring — (Topic 3) #5
+
+<details>
+<summary>recording_problem_name</summary>
+
+[Problem recording placeholder](#)
+
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
+Example 1:
+Input: s = "babad"
+Output: "bab"
+
+Example 2:
+Input: s = "cbbd"
+Output: "bb"
+
+</details>
+
+<details>
+<summary>Code</summary>
+
+```python
+class Solution:
+    def longestPalindrome(self, s):
+        if not s:
+            return ""
+        start = 0
+        max_len = 1
+
+        def expand(l, r):
+            nonlocal start, max_len
+            while l >= 0 and r < len(s) and s[l] == s[r]:
+                if r - l + 1 > max_len:
+                    start = l
+                    max_len = r - l + 1
+                l -= 1
+                r += 1
+
+        for i in range(len(s)):
+            expand(i, i)
+            expand(i, i + 1)
+
+        return s[start:start + max_len]
+```
+
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
+Time Complexity: O(n^2)
+Space Complexity: O(1)
+
+</details>
+
+---
+
+## Q11 : 🟨 Longest Substring Without Repeating Characters — (Topic 5) #3
 
 <details>
 <summary>recording_problem_name</summary>
@@ -154,7 +544,7 @@ Space Complexity: O(min(n, 256))
 
 ---
 
-## Q4 : (LC5)Longest Palindromic Substring
+## Q12 : 🟨 Longest Repeating Character Replacement — (Topic 5) #424
 
 <details>
 <summary>recording_problem_name</summary>
@@ -167,12 +557,12 @@ Space Complexity: O(min(n, 256))
 <summary>Sample Input & Output</summary>
 
 Example 1:
-Input: s = "babad"
-Output: "bab"
+Input: s = "ABAB", k = 2
+Output: 4
 
 Example 2:
-Input: s = "cbbd"
-Output: "bb"
+Input: s = "AABABBA", k = 1
+Output: 4
 
 </details>
 
@@ -180,28 +570,26 @@ Output: "bb"
 <summary>Code</summary>
 
 ```python
+from collections import defaultdict
+
 class Solution:
-    def longestPalindrome(self, s):
-        if not s:
-            return ""
+    def characterReplacement(self, s, k):
+        counts = defaultdict(int)
+        left = 0
+        max_count = 0
+        longest = 0
 
-        start, max_len = 0, 1
-        for i in range(len(s)):
-            l, r = i, i
-            while l >= 0 and r < len(s) and s[l] == s[r]:
-                if (r - l + 1) > max_len:
-                    start, max_len = l, r - l + 1
-                l -= 1
-                r += 1
+        for right, ch in enumerate(s):
+            counts[ch] += 1
+            max_count = max(max_count, counts[ch])
 
-            l, r = i, i + 1
-            while l >= 0 and r < len(s) and s[l] == s[r]:
-                if (r - l + 1) > max_len:
-                    start, max_len = l, r - l + 1
-                l -= 1
-                r += 1
+            while right - left + 1 - max_count > k:
+                counts[s[left]] -= 1
+                left += 1
 
-        return s[start:start + max_len]
+            longest = max(longest, right - left + 1)
+
+        return longest
 ```
 
 </details>
@@ -209,14 +597,14 @@ class Solution:
 <details>
 <summary>Space & Time Complexity</summary>
 
-Time Complexity: O(n^2)
+Time Complexity: O(n)
 Space Complexity: O(1)
 
 </details>
 
 ---
 
-## Q5 : (LC6)Zigzag Conversion
+## Q13 : 🟨 Find All Anagrams in a String — (Topic 4) #438
 
 <details>
 <summary>recording_problem_name</summary>
@@ -229,12 +617,72 @@ Space Complexity: O(1)
 <summary>Sample Input & Output</summary>
 
 Example 1:
-Input: s = "PAYPALISHIRING", numRows = 3
-Output: "PAHNAPLSIIGYIR"
+Input: s = "cbaebabacd", p = "abc"
+Output: [0,6]
 
 Example 2:
-Input: s = "PAYPALISHIRING", numRows = 4
-Output: "PINALSIGYAHRPI"
+Input: s = "abab", p = "ab"
+Output: [0,1,2]
+
+</details>
+
+<details>
+<summary>Code</summary>
+
+```python
+from collections import Counter
+
+class Solution:
+    def findAnagrams(self, s, p):
+        need = Counter(p)
+        window = Counter()
+        left = 0
+        result = []
+
+        for right, ch in enumerate(s):
+            window[ch] += 1
+            while window - need < Counter():
+                window[s[left]] -= 1
+                if window[s[left]] == 0:
+                    del window[s[left]]
+                left += 1
+            if window == need:
+                result.append(left)
+
+        return result
+```
+
+</details>
+
+<details>
+<summary>Space & Time Complexity</summary>
+
+Time Complexity: O(n)
+Space Complexity: O(k)
+
+</details>
+
+---
+
+## Q14 : 🟨 Decode String — (Topic 6) #394
+
+<details>
+<summary>recording_problem_name</summary>
+
+[Problem recording placeholder](#)
+
+</details>
+
+<details>
+<summary>Sample Input & Output</summary>
+
+Example 1:
+Input: s = "3[a]2[bc]"
+Output: "aaabcbc"
+
+Example 2:
+Input: s = "3[a2[c]]"
+Output: "accaccacc"
 
 </details>
 
@@ -243,21 +691,25 @@ Output: "PINALSIGYAHRPI"
 
 ```python
 class Solution:
-    def convert(self, s, numRows):
-        if numRows == 1 or numRows >= len(s):
-            return s
-
-        rows = ["" for _ in range(numRows)]
-        cur_row = 0
-        going_down = False
+    def decodeString(self, s):
+        stack = []
+        current_num = 0
+        current_string = ""
 
         for ch in s:
-            rows[cur_row] += ch
-            if cur_row == 0 or cur_row == numRows - 1:
-                going_down = not going_down
-            cur_row += 1 if going_down else -1
+            if ch.isdigit():
+                current_num = current_num * 10 + int(ch)
+            elif ch == '[':
+                stack.append((current_string, current_num))
+                current_string = ""
+                current_num = 0
+            elif ch == ']':
+                prev_string, repeat = stack.pop()
+                current_string = prev_string + current_string * repeat
+            else:
+                current_string += ch
 
-        return "".join(rows)
+        return current_string
 ```
 
 </details>
@@ -272,7 +724,7 @@ Space Complexity: O(n)
 
 ---
 
-## Q6 : (LC8)String to Integer (atoi)
+## Q15 : 🟨 String to Integer (atoi) — (Topic 6) #8
 
 <details>
 <summary>recording_problem_name</summary>
@@ -306,8 +758,7 @@ class Solution:
 
         sign = 1
         if s[0] in '+-':
-            if s[0] == '-':
-                sign = -1
+            sign = -1 if s[0] == '-' else 1
             s = s[1:]
 
         num = 0
@@ -335,7 +786,7 @@ Space Complexity: O(1)
 
 ---
 
-## Q7 : (LC9)Palindrome Number
+## Q16 : 🟨 Encode and Decode Strings — (Topic 6) #271
 
 <details>
 <summary>recording_problem_name</summary>
@@ -348,12 +799,12 @@ Space Complexity: O(1)
 <summary>Sample Input & Output</summary>
 
 Example 1:
-Input: x = 121
-Output: true
+Input: words = ["lint","code","love","you"]
+Output: "4#lint4#code4#love3#you"
 
 Example 2:
-Input: x = -121
-Output: false
+Input: words = ["we","say",":","yes"]
+Output: "2#we3#say1#:3#yes"
 
 </details>
 
@@ -361,18 +812,20 @@ Output: false
 <summary>Code</summary>
 
 ```python
-class Solution:
-    def isPalindrome(self, x):
-        if x < 0:
-            return False
-        original = x
-        reversed_x = 0
+class Codec:
+    def encode(self, strs):
+        return ''.join(f'{len(s)}#{s}' for s in strs)
 
-        while x > 0:
-            reversed_x = reversed_x * 10 + x % 10
-            x //= 10
-
-        return reversed_x == original
+    def decode(self, s):
+        res = []
+        i = 0
+        while i < len(s):
+            j = s.find('#', i)
+            length = int(s[i:j])
+            i = j + 1
+            res.append(s[i:i + length])
+            i += length
+        return res
 ```
 
 </details>
@@ -380,14 +833,14 @@ class Solution:
 <details>
 <summary>Space & Time Complexity</summary>
 
-Time Complexity: O(log n)
-Space Complexity: O(1)
+Time Complexity: O(total characters)
+Space Complexity: O(total characters)
 
 </details>
 
 ---
 
-## Q8 : (LC12)Integer to Roman
+## Q17 : 🟨 Palindromic Substrings — (Topic 3) #647
 
 <details>
 <summary>recording_problem_name</summary>
@@ -400,64 +853,12 @@ Space Complexity: O(1)
 <summary>Sample Input & Output</summary>
 
 Example 1:
-Input: num = 3
-Output: "III"
-
-Example 2:
-Input: num = 58
-Output: "LVIII"
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def intToRoman(self, num):
-        values = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
-        numerals = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"]
-        result = ""
-
-        for v, n in zip(values, numerals):
-            while num >= v:
-                result += n
-                num -= v
-
-        return result
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(1)
-Space Complexity: O(1)
-
-</details>
-
----
-
-## Q9 : (LC13)Roman to Integer
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: s = "III"
+Input: s = "abc"
 Output: 3
 
 Example 2:
-Input: s = "MCMXCIV"
-Output: 1994
+Input: s = "aaa"
+Output: 6
 
 </details>
 
@@ -466,20 +867,21 @@ Output: 1994
 
 ```python
 class Solution:
-    def romanToInt(self, s):
-        values = {
-            'I': 1, 'V': 5, 'X': 10, 'L': 50,
-            'C': 100, 'D': 500, 'M': 1000
-        }
-        total = 0
+    def countSubstrings(self, s):
+        count = 0
+
+        def expand(l, r):
+            nonlocal count
+            while l >= 0 and r < len(s) and s[l] == s[r]:
+                count += 1
+                l -= 1
+                r += 1
 
         for i in range(len(s)):
-            if i + 1 < len(s) and values[s[i]] < values[s[i + 1]]:
-                total -= values[s[i]]
-            else:
-                total += values[s[i]]
+            expand(i, i)
+            expand(i, i + 1)
 
-        return total
+        return count
 ```
 
 </details>
@@ -487,383 +889,14 @@ class Solution:
 <details>
 <summary>Space & Time Complexity</summary>
 
-Time Complexity: O(n)
+Time Complexity: O(n^2)
 Space Complexity: O(1)
 
 </details>
 
 ---
 
-## Q10 : (LC14)Longest Common Prefix
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: strs = ["flower","flow","flight"]
-Output: "fl"
-
-Example 2:
-Input: strs = ["dog","racecar","car"]
-Output: ""
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def longestCommonPrefix(self, strs):
-        if not strs:
-            return ""
-
-        prefix = strs[0]
-        for s in strs[1:]:
-            while not s.startswith(prefix):
-                prefix = prefix[:-1]
-                if not prefix:
-                    return ""
-        return prefix
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n * m)
-Space Complexity: O(1)
-
-</details>
-
----
-
-## Q11 : (LC17)Letter Combinations of a Phone Number
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: digits = "23"
-Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
-
-Example 2:
-Input: digits = ""
-Output: []
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def letterCombinations(self, digits):
-        if not digits:
-            return []
-
-        mapping = {
-            '2': 'abc', '3': 'def', '4': 'ghi', '5': 'jkl',
-            '6': 'mno', '7': 'pqrs', '8': 'tuv', '9': 'wxyz'
-        }
-        result = [""]
-
-        for digit in digits:
-            letters = mapping[digit]
-            result = [prefix + letter for prefix in result for letter in letters]
-
-        return result
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(4^n)
-Space Complexity: O(4^n)
-
-</details>
-
----
-
-## Q12 : (LC20)Valid Parentheses
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: s = "()"
-Output: true
-
-Example 2:
-Input: s = "(]"
-Output: false
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def isValid(self, s):
-        stack = []
-        pairs = {')': '(', ']': '[', '}': '{'}
-
-        for ch in s:
-            if ch in '([{':
-                stack.append(ch)
-            elif not stack or stack.pop() != pairs[ch]:
-                return False
-
-        return not stack
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n)
-Space Complexity: O(n)
-
-</details>
-
----
-
-## Q13 : (LC21)Merge Two Sorted Lists
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: list1 = [1,2,4], list2 = [1,3,4]
-Output: [1,1,2,3,4,4]
-
-Example 2:
-Input: list1 = [], list2 = []
-Output: []
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def mergeTwoLists(self, l1, l2):
-        dummy = ListNode(0)
-        current = dummy
-
-        while l1 and l2:
-            if l1.val <= l2.val:
-                current.next = l1
-                l1 = l1.next
-            else:
-                current.next = l2
-                l2 = l2.next
-            current = current.next
-
-        current.next = l1 or l2
-        return dummy.next
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n + m)
-Space Complexity: O(1)
-
-</details>
-
----
-
-## Q14 : (LC28)Find the Index of the First Occurrence in a String
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: haystack = "sadbutsad", needle = "sad"
-Output: 0
-
-Example 2:
-Input: haystack = "leetcode", needle = "leeto"
-Output: -1
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def strStr(self, haystack, needle):
-        if needle == "":
-            return 0
-
-        n, m = len(haystack), len(needle)
-        for i in range(n - m + 1):
-            if haystack[i:i + m] == needle:
-                return i
-
-        return -1
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n * m)
-Space Complexity: O(1)
-
-</details>
-
----
-
-## Q15 : (LC38)Count and Say
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: n = 1
-Output: "1"
-
-Example 2:
-Input: n = 4
-Output: "1211"
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def countAndSay(self, n):
-        s = "1"
-        for _ in range(1, n):
-            next_s = ""
-            i = 0
-            while i < len(s):
-                count = 1
-                while i + 1 < len(s) and s[i] == s[i + 1]:
-                    count += 1
-                    i += 1
-                next_s += str(count) + s[i]
-                i += 1
-            s = next_s
-        return s
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n * length)
-Space Complexity: O(length)
-
-</details>
-
----
-
-## Q16 : (LC49)Group Anagrams
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: strs = ["eat","tea","tan","ate","nat","bat"]
-Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
-
-Example 2:
-Input: strs = [""]
-Output: [[""]]
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def groupAnagrams(self, strs):
-        groups = {}
-        for word in strs:
-            key = tuple(sorted(word))
-            groups.setdefault(key, []).append(word)
-        return list(groups.values())
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n * k log k)
-Space Complexity: O(n * k)
-
-</details>
-
----
-
-## Q17 : (LC76)Minimum Window Substring
+## Q18 : 🟧 Minimum Window Substring — (Topic 5) #76
 
 <details>
 <summary>recording_problem_name</summary>
@@ -928,7 +961,7 @@ Space Complexity: O(k)
 
 ---
 
-## Q18 : (LC125)Valid Palindrome
+## Q19 : 🟧 Regular Expression Matching — (Topic 8) #10
 
 <details>
 <summary>recording_problem_name</summary>
@@ -941,12 +974,12 @@ Space Complexity: O(k)
 <summary>Sample Input & Output</summary>
 
 Example 1:
-Input: s = "A man, a plan, a canal: Panama"
-Output: true
+Input: s = "aa", p = "a"
+Output: false
 
 Example 2:
-Input: s = "race a car"
-Output: false
+Input: s = "aa", p = "a*"
+Output: true
 
 </details>
 
@@ -955,9 +988,22 @@ Output: false
 
 ```python
 class Solution:
-    def isPalindrome(self, s):
-        cleaned = ''.join(ch.lower() for ch in s if ch.isalnum())
-        return cleaned == cleaned[::-1]
+    def isMatch(self, s, p):
+        dp = [[False] * (len(p) + 1) for _ in range(len(s) + 1)]
+        dp[0][0] = True
+
+        for j in range(1, len(p) + 1):
+            if p[j - 1] == '*':
+                dp[0][j] = dp[0][j - 2]
+
+        for i in range(1, len(s) + 1):
+            for j in range(1, len(p) + 1):
+                if p[j - 1] == s[i - 1] or p[j - 1] == '.':
+                    dp[i][j] = dp[i - 1][j - 1]
+                elif p[j - 1] == '*':
+                    dp[i][j] = dp[i][j - 2] or (dp[i - 1][j] and (p[j - 2] == s[i - 1] or p[j - 2] == '.'))
+
+        return dp[len(s)][len(p)]
 ```
 
 </details>
@@ -965,14 +1011,14 @@ class Solution:
 <details>
 <summary>Space & Time Complexity</summary>
 
-Time Complexity: O(n)
-Space Complexity: O(n)
+Time Complexity: O(n * m)
+Space Complexity: O(n * m)
 
 </details>
 
 ---
 
-## Q19 : (LC242)Valid Anagram
+## Q20 : 🟧 Edit Distance — (Topic 8) #72
 
 <details>
 <summary>recording_problem_name</summary>
@@ -985,12 +1031,12 @@ Space Complexity: O(n)
 <summary>Sample Input & Output</summary>
 
 Example 1:
-Input: s = "anagram", t = "nagaram"
-Output: true
+Input: word1 = "horse", word2 = "ros"
+Output: 3
 
 Example 2:
-Input: s = "rat", t = "car"
-Output: false
+Input: word1 = "intention", word2 = "execution"
+Output: 5
 
 </details>
 
@@ -999,8 +1045,23 @@ Output: false
 
 ```python
 class Solution:
-    def isAnagram(self, s, t):
-        return sorted(s) == sorted(t)
+    def minDistance(self, word1, word2):
+        m, n = len(word1), len(word2)
+        dp = [[0] * (n + 1) for _ in range(m + 1)]
+
+        for i in range(m + 1):
+            dp[i][0] = i
+        for j in range(n + 1):
+            dp[0][j] = j
+
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+                if word1[i - 1] == word2[j - 1]:
+                    dp[i][j] = dp[i - 1][j - 1]
+                else:
+                    dp[i][j] = 1 + min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1])
+
+        return dp[m][n]
 ```
 
 </details>
@@ -1008,54 +1069,7 @@ class Solution:
 <details>
 <summary>Space & Time Complexity</summary>
 
-Time Complexity: O(n log n)
-Space Complexity: O(n)
-
-</details>
-
----
-
-## Q20 : (LC344)Reverse String
-
-<details>
-<summary>recording_problem_name</summary>
-
-[Problem recording placeholder](#)
-
-</details>
-
-<details>
-<summary>Sample Input & Output</summary>
-
-Example 1:
-Input: s = ["h","e","l","l","o"]
-Output: ["o","l","l","e","h"]
-
-Example 2:
-Input: s = ["H","a","n","n","a","h"]
-Output: ["h","a","n","n","a","H"]
-
-</details>
-
-<details>
-<summary>Code</summary>
-
-```python
-class Solution:
-    def reverseString(self, s):
-        left, right = 0, len(s) - 1
-        while left < right:
-            s[left], s[right] = s[right], s[left]
-            left += 1
-            right -= 1
-```
-
-</details>
-
-<details>
-<summary>Space & Time Complexity</summary>
-
-Time Complexity: O(n)
-Space Complexity: O(1)
+Time Complexity: O(m * n)
+Space Complexity: O(m * n)
 
 </details>
