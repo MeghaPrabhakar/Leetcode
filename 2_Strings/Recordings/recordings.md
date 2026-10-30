@@ -16,6 +16,7 @@ Details : #14,Easy,Topic1
 Example 1:
 Input: strs = ["flower","flow","flight"]
 Output: "fl"
+
 Example 2:
 Input: strs = ["dog","racecar","car"]
 Output: ""
@@ -67,6 +68,7 @@ Details : #125,Easy,Topic3
 Example 1:
 Input: s = "A man, a plan, a canal: Panama"
 Output: true
+
 Example 2:
 Input: s = "race a car"
 Output: false
@@ -111,6 +113,7 @@ Details : #242,Easy,Topic4
 Example 1:
 Input: s = "anagram", t = "nagaram"
 Output: true
+
 Example 2:
 Input: s = "rat", t = "car"
 Output: false
@@ -154,6 +157,7 @@ Details : #387,Easy,Topic2
 Example 1:
 Input: s = "leetcode"
 Output: 0
+
 Example 2:
 Input: s = "loveleetcode"
 Output: 2
@@ -203,6 +207,7 @@ Details : #392,Easy,Topic5
 Example 1:
 Input: s = "abc", t = "ahbgdc"
 Output: true
+
 Example 2:
 Input: s = "axc", t = "ahbgdc"
 Output: false
@@ -250,6 +255,7 @@ Details : #344,Easy,Topic1
 Example 1:
 Input: s = ["h","e","l","l","o"]
 Output: ["o","l","l","e","h"]
+
 Example 2:
 Input: s = ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
@@ -297,6 +303,7 @@ Details : #557,Easy,Topic1
 Example 1:
 Input: s = "Let's take LeetCode contest"
 Output: "s'teL ekat edoCteeL tsetnoc"
+
 Example 2:
 Input: s = "God Ding"
 Output: "doG gniD"
@@ -341,6 +348,7 @@ Details : #49,Med.,Topic4
 Example 1:
 Input: strs = ["eat","tea","tan","ate","nat","bat"]
 Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+
 Example 2:
 Input: strs = [""]
 Output: [[""]]
@@ -389,6 +397,7 @@ Details : #443,Med.,Topic7
 Example 1:
 Input: chars = ["a","a","b","b","c","c","c"]
 Output: 6
+
 Example 2:
 Input: chars = ["a"]
 Output: 1
@@ -446,6 +455,7 @@ Details : #5,Med.,Topic3
 Example 1:
 Input: s = "babad"
 Output: "bab"
+
 Example 2:
 Input: s = "cbbd"
 Output: "bb"
@@ -507,6 +517,7 @@ Details : #3,Med.,Topic5
 Example 1:
 Input: s = "abcabcbb"
 Output: 3
+
 Example 2:
 Input: s = "bbbbb"
 Output: 1
@@ -560,6 +571,7 @@ Details : #424,Med.,Topic5
 Example 1:
 Input: s = "ABAB", k = 2
 Output: 4
+
 Example 2:
 Input: s = "AABABBA", k = 1
 Output: 4
@@ -620,6 +632,7 @@ Details : #438,Med.,Topic4
 Example 1:
 Input: s = "cbaebabacd", p = "abc"
 Output: [0,6]
+
 Example 2:
 Input: s = "abab", p = "ab"
 Output: [0,1,2]
@@ -680,6 +693,7 @@ Details : #394,Med.,Topic6
 Example 1:
 Input: s = "3[a]2[bc]"
 Output: "aaabcbc"
+
 Example 2:
 Input: s = "3[a2[c]]"
 Output: "accaccacc"
@@ -740,6 +754,7 @@ Details : #8,Med.,Topic6
 Example 1:
 Input: s = "42"
 Output: 42
+
 Example 2:
 Input: s = "   -42"
 Output: -42
@@ -802,6 +817,7 @@ Details : #271,Med.,Topic6
 Example 1:
 Input: words = ["lint","code","love","you"]
 Output: "4#lint4#code4#love3#you"
+
 Example 2:
 Input: words = ["we","say",":","yes"]
 Output: "2#we3#say1#:3#yes"
@@ -856,6 +872,7 @@ Details : #647,Med.,Topic3
 Example 1:
 Input: s = "abc"
 Output: 3
+
 Example 2:
 Input: s = "aaa"
 Output: 6
@@ -912,6 +929,7 @@ Details : #76,Hard,Topic5
 Example 1:
 Input: s = "ADOBECODEBANC", t = "ABC"
 Output: "BANC"
+
 Example 2:
 Input: s = "a", t = "aa"
 Output: ""
@@ -977,6 +995,7 @@ Details : #10,Hard,Topic8
 Example 1:
 Input: s = "aa", p = "a"
 Output: false
+
 Example 2:
 Input: s = "aa", p = "a*"
 Output: true
@@ -1034,6 +1053,7 @@ Details : #72,Med.,Topic8
 Example 1:
 Input: word1 = "horse", word2 = "ros"
 Output: 3
+
 Example 2:
 Input: word1 = "intention", word2 = "execution"
 Output: 5
@@ -1073,4 +1093,3 @@ Time Complexity: O(m * n)
 Space Complexity: O(m * n)
 
 </details>
-
